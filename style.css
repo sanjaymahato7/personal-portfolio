@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap')
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex; 
+
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: gold;
+    width: 37vh;
+    font-family: "Kadwa", serif;
+    padding:10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 100vh;
+    font-weight: bold;
+    transition: transform 0.3s ease-in;
+}
+.sidebar .nav{
+    padding: 40px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 20px 0px;
+
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;/* that is used  to remove the underline of link*/
+}
+.main{
+    /* background-color: rgb(199, 141, 66); */
+    /* background-color: rgb(199, 141, 66); */
+    width:80%;
+}
+.infocontainer{
+     /* background-color:rgb(149, 28, 194); */
+     height: 58vh;
+     width: 70vw  ;
+     margin: 144px auto;
+     display: flex;
+     justify-content: space-around;/*that is use to change the both of text and image*/
+     margin-left: 30px;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;/* that is use to reach text center */
+    flex-direction: column;/* that is use to display all of text column by column show*/
+}
+.hello{
+    font-size: 75px;
+    color: #aed0e4;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.name{
+    font-size: 50px;
+    color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 35px;
+    color: bisque;
+    text-transform:capitalize;
+    font-weight: bold;
+
+}
+.moreabout{
+    margin-top: 10px;
+    font-size:25px;
+    color: rgb(23, 232, 79);
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+.button button{ /*that is used to track the class without class name that is new method*/
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: darkorange;
+    rotate: 45%;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #0faf67;
+    font-weight: bold; /* that is used to make the bold of text*/
+    cursor: pointer;/* that is used to create like hower of hyperlink*/
+}
+.button button:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.pic img{
+    width: 250px;
+    margin-top:30px;
+    justify-content: center;
+
+}
+.contactform{
+    margin-left: 30px;
+}
+.contactform h1{
+ 
+ color: #0faf67;
+ font-size: 20px;
+ text-transform: capitalize;
+ margin-top: 20px;
+ margin-left: 40px;
+}
+.contactform form div {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    
+ }
+.contactform form div input{
+    width: 250px;
+    border-radius: 5px;
+    color:rgba(221, 31, 34, 0.671) ;
+    margin-top: 10px;
+} 
+
+.form-text{
+    font-weight: lighter;
+    color: #910df6;
+    font-size: 12px;
+}
+
+ 
+ 
+.mb-3{
+    padding-left: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #b93127;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+button{
+    margin-left: 120px;
+    border-radius: 20px;
+    width: 80px;
+    align-content: center;
+    margin-top: 10px;
+    
+}
+.a button{
+    font-size: 12px;
+    
+}
+.man{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(234, 56, 107);
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+    
+}
+.tem{
+    color: rgb(236, 97, 97);
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+
+}
+.tem #r{
+    margin-left: 30px;
+}
+
+.blogitem{
+    margin-top: 20px;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blogcontainer h1{
+    font-size: 45px;
+    color: rgb(255, 0, 13);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.blogitem h2{
+  margin-left: 20px;
+  margin-top: 10px;
+color:rebeccapurple;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+.blogitem p{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+    background-color: #e2a3a3;
+ 
+    
+}
+button {
+    margin-left: 32px;
+    border-radius: 20px;
+    width: 100px;
+    align-content: center;
+    margin-top: 5px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button:hover{
+    background-color: red;
+    
+}
+.intro h2{
+    color:green;
+    font-size: 20px;
+    margin-top: none;
+
+}
+.intro p{
+    color: gold;
+
+}
+.skill{
+    width: 250px;
+    height: 6px;
+    background-color: green;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.t9{
+    width: 70%;
+    height: 10px;
+    border: 5px solid burlywood;
+
+}
+.t7{
+ width: 50%;
+    height: 10px;
+    border: 5px solid rgb(122, 152, 239);
+}
+
+
+.t3{
+     width: 25%;
+    height: 10px;
+    border: 5px solid rgb(20, 76, 206);
+
+}
+.t75{
+     width: 65%;
+    height: 10px;
+    border: 5px solid burlywood;
+
+}
+.t6{
+     width: 70%;
+    height: 10px;
+    border: 5px solid rgb(135, 207, 27);
+
+}
+.t65{
+     width: 45%;
+    height: 10px;
+    border: 5px solid rgb(30, 229, 69);
+
+}
+.skillitem{
+    color: springgreen;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.skillscontainer h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-left: 20px;
+}
+.project1{
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    padding-left: 20px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+.project2{
+    font-size: 20px;
+    color: rgb(28, 206, 206);
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    padding-left: 20px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+.project3{
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    padding-left: 20px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+.project4{
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    padding-left: 20px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+.project5{
+    font-size: 20px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    text-transform: capitalize;
+    margin-top: 7px;
+    padding-left: 20px;
+}/*that is use to hide the side bar of all the link*/
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+}
+.hamburg{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cross{
+    margin-left: 231px;
+    margin-top: 10px;
+  
+}
+/*that is use to make the responsive website this syntax used*/
+@media(max-width:1615px)
+    /* * {
+         background-color:rgb(199, 141, 66); 
+    }
+    .sidebar{ 
+         transform: translate(-443px, 0px); 
+        position: absolute;
+    } */
+
+ 
