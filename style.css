@@ -642,22 +642,22 @@ footer p{
 
         }
            .navbar{
-            height: 10rem;
+            height: 40rem;
             display: block;
             background-color: rgb(106, 172, 106)
+               magin-bottom:2rem;
             
            }
         .log img{
             margin-left:2px;
+            margin-right:2px;
             
         }
         .about p{
             overflow: hidden;
             display:block;
         }
-        .logo img{
-            margin-right:0.5rem;
-           }
+      
            .container2{
             height: 480px;
                width:100%;
