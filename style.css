@@ -641,16 +641,19 @@ footer p{
             width:100%;
 
         }
-           .navbar{
-            height: 40rem;
-            display: block;
-            background-color: rgb(106, 172, 106)
-               magin-bottom:2rem;
-            
-           }
+        .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(161, 205, 161);
+    justify-content: space-between;
+            margin-left:0px;
+}
         .log img{
-            margin-left:2px;
-            margin-right:2px;
+           padding:0px;
+            margin:0px;
             
         }
         .about p{
@@ -659,7 +662,7 @@ footer p{
         }
       
            .container2{
-            height: 480px;
+            height: 1200px;
                width:100%;
            }
     }
