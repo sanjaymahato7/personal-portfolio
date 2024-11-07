@@ -571,7 +571,7 @@ footer p{
      
         footer{
             flex-wrap: wrap;
-            height: 80rem;
+            height: 800rem;
         }
         .front{
             flex-wrap: wrap;
@@ -584,7 +584,7 @@ footer p{
     html{
         font-size: 43%;
         .navbar{
-            height: 10rem;
+            height: 120rem;
             display: block;
             background-color: rgb(106, 172, 106)
             
@@ -604,12 +604,12 @@ footer p{
        
         footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: 1500px;
             width:100%;
 
         }
            .navbar{
-            height: 10rem;
+            height: 50rem;
             display: block;
             background-color: rgb(106, 172, 106)
             
@@ -663,6 +663,7 @@ footer p{
       
            .container2{
             height: 1200px;
+               flex-wrap:wrap;
                width:100%;
            }
     }
