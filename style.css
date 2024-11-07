@@ -1,4 +1,4 @@
-*{
+a*{
     padding: 0rem;
     margin: 0rem;
 }
@@ -239,8 +239,7 @@ span{
 /* ABOUT SECTION OF CODE DESOGN */
 /* now about section part desing below parts */
 .container2{
-    display: flex;
-    margin-top: 0rem;
+    display: flex:
     width: 100%;
     height: 44rem;
     background-color:#1e272e;
@@ -605,8 +604,7 @@ footer p{
        
         footer{
             flex-wrap: wrap;
-            display:block;
-            height: 90rem;
+            height: 100rem;
             width:100%;
 
         }
@@ -616,6 +614,43 @@ footer p{
             background-color: rgb(106, 172, 106)
             
            }
+        .log img{
+            margin-left:2px;
+            
+        }
+        .about p{
+            overflow: hidden;
+            display:block;
+        }
+        .logo img{
+            margin-right:0.5rem;
+           }
+           .container2{
+            height: 480px;
+               width:100%;
+           }
+    }
+}
+
+@media(max-width:468px){
+    html{
+       
+        footer{
+            flex-wrap: wrap;
+            height: 100rem;
+            width:100%;
+
+        }
+           .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
+        .log img{
+            margin-left:2px;
+            
+        }
         .about p{
             overflow: hidden;
             display:block;
@@ -633,6 +668,7 @@ footer p{
     html{
         .about p{
             flex-wrap: wrap;
+            display:block;
         }
            .navbar{
             height: 10rem;
