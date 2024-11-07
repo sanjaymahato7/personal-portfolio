@@ -2,9 +2,6 @@
     padding: 0rem;
     margin: 0rem;
 }
-/* body{
-    background-image: url(/GIF\ FOLDER/gif1.gif);
-} */
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -607,7 +604,7 @@ footer p{
        
         footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: 80rem;
 
         }
         .about p{
