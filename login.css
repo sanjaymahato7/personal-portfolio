@@ -1,0 +1,491 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+/* body{
+    background-image: url(/GIF\ FOLDER/gif1.gif);
+} */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgb(129, 239, 129);
+    justify-content: space-between;
+}
+marquee{
+    width: 20rem;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 50%;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: .1rem -0.2rem yellowgreen;
+    margin-top: 2rem;
+}
+
+.container{
+    width: 100%;
+    height: 54.2rem;
+   
+}
+.container::before{
+    content: " "; 
+    /* background-image: url(/GIF\ FOLDER/gif7.gif); */
+    /* background-color: #991c1c; */
+    /* background: url(gif2.gif) no-repeat center center/cover; */
+    position: absolute;
+    height: 54.2rem;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+/* JS CODING OF COMPLETER LINKING  */
+
+#logo{
+    margin-top: 0.7rem;
+}
+
+#logo img{
+    width: 3rem;
+    height: 3rem;
+    border: .2rem dotted rgb(245, 200, 200);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#logo img:hover{
+    background-color: rgb(233, 17, 57);
+}
+
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    text-shadow: -0.1rem -0.1rem yellowgreen;
+    
+}
+.navbar ul li a{
+    color: whitesmoke;
+    padding: 2rem;
+    color: rgb(18, 17, 16);
+    padding: 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.navbar ul li a:hover{
+    color: whitesmoke;
+    font-size: 2.4rem;
+ 
+
+    /* transition: 2s; */
+}
+/* input text design section */
+.navbar input{
+    width: 14.4rem;
+    border: .2rem solid;
+    border-radius: .5rem;
+    background-color: #292626;
+    font-size: 1.6rem;
+
+}
+input[type=text]
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .4rem;
+    background-color:white;
+
+
+}
+
+button{
+    border-radius: .4rem;
+}
+#but{
+    width: 5rem;
+    height:2.7rem;
+    border:.2rem solid rgb(206, 177, 177);
+    cursor: pointer;
+    border-left: none;
+    background-color: #e6f0e6;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+#but a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    
+}
+#but:hover{
+    background-color: #d54b4b;
+
+}
+/* NAVBAR DESIGN SECTION END THIS LINE */
+
+/* MEDIA QUERY SELECTOR CONDING LINK  */
+/* this is media query section join  */
+
+html{
+    font-size: 62.5%;
+}
+/* LINK THE HTML REM ROOT ELEMENT METHOD */
+
+
+
+
+
+
+/* CONTACT FONM DESING SECTION  */
+form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.containerl{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 35rem;
+    margin-top: 50%;
+    margin-left: 50%;
+    border: .2rem solid red;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: -.1rem -.1rem 1.2rem 1.4rem green;
+    margin-top: 10rem;
+    margin-left: 80rem;
+    margin-bottom: 10rem;
+
+}
+.containerl::after{
+    content: " "; 
+    background-color: 	rgb(229, 255, 255);
+    /* background-image: conic-gradient(red, yellow, green); */
+    /* background: url(../GIF\ FOLDER/gif4.gif) no-repeat center center/cover; */
+    /* background: url(gif2.gif) no-repeat center center/cover; */
+    position: absolute;
+    width: 100%;
+    height: 80rem;
+    top: 0rem;
+    left: 0rem;
+    z-index: -1;
+    opacity: 0.4;
+}
+.head{
+    font-size: 2rem;
+    color: rgb(19, 12, 236);
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}
+.eml{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.eml input{
+    border-radius: 1rem;
+    padding: .7rem;
+    font-size: 2rem;
+}
+.pass{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: .5rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+font-weight: bolder;
+}
+.pass input{
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: .8rem;
+}
+.button{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 2rem;
+    border-radius: 1.5rem;
+   
+}
+.button button{
+    border-radius: 1.5rem;
+    padding:.4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: black;
+}
+.button button:hover{
+    color:white;
+    background-color: rgb(3, 31, 113);
+    box-shadow: -.2rem -.2rem .2rem .2rem rgb(143, 8, 35);
+
+}
+
+
+
+
+
+/* ALL ABOUT OF FOOTER SECTION  */
+/* NOW DESING THE FOOTER SECTION IN THIS TIME  */
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+footer{
+    background-color:#2d3436;
+    width: 100%;
+    height: 50rem;
+}
+#head{
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0rem;
+    text-transform: capitalize;
+    text-shadow: -.2rem -.2rem rgb(7, 7, 5);
+
+    
+}
+.container4{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo1{
+
+    margin: 2rem;
+    text-transform:capitalize;
+    font-size: 2rem;
+    color: #f7f1e3;
+    letter-spacing: .3rem;
+    font-weight:lighter;
+ 
+}
+#logo1:hover{
+    background-color: #06bb18;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem red;
+    padding: .2rem;
+}
+
+/* all of heading design dection */
+h1{
+    font-size: 3.4rem;
+    color:#a4b0be;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.fa-brands{
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+    border-radius:1rem;
+}
+.fa-camera{
+    font-size: 4rem;
+    cursor: pointer;
+    color: white;
+}
+.fa-camera:hover{
+    background-color: #2e7b0b;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem burlywood;
+}
+.fa-brands text{
+    margin-left:1rem;
+    color: whitesmoke;
+}
+/* subscribe section coding  */
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoinfo img{
+    width: 6rem;
+    height: 6rem; 
+    border-radius: 3rem;
+    margin: 1rem;
+}
+
+.newinfo{
+    padding: 1rem 0rem;
+}
+.newinfo h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color:rgb(252, 240, 240);
+    
+}
+.newinfo input{
+    margin-top: .4rem;
+    padding: .6rem;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+    
+   
+    border-radius: 8rem;
+}
+.newinfo button{
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #292626;
+    font-size: 2rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+.newinfo button:hover{
+    background-color: aqua;
+    box-shadow: -.2rem -.2rem .2rem .3rem red;
+}
+/* grmail bal only desogn */
+
+footer p{
+    
+    text-align:center;
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  APPLY MEDIA QUARY  */
+
+
+@media(max-width:1251px){
+    html{
+        font-size:47%;
+      
+      
+        .containerl{
+        margin-left: 32rem;
+        margin-top: 12rem;
+        margin-bottom: 12rem;
+      }
+        
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:47%;
+     
+        footer{
+            flex-wrap: wrap;
+            height: 80rem;
+        }
+        .front{
+            flex-wrap: wrap;
+        }
+      
+        
+    }
+}
+
+
+
+@media(max-width:768px){
+    html{
+        font-size: 43%;
+        .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
+           marquee{
+            margin-top: 60px;
+           }
+        #logo{
+            margin-left: 45rem;
+            
+           }
+           .front{
+            flex-wrap: wrap;
+        }
+        .containerl{
+            margin-left: 51rem;
+            margin-top: 12rem;
+            margin-bottom: 12rem;
+          }
+          footer{
+            flex-wrap: wrap;
+            height: 100rem;
+            justify-content: center;
+            align-items: center;
+        }
+   
+    }
+}
+
+
+
+
+@media(max-width:585px){
+    html{
+        footer{
+            flex-wrap: wrap;
+            height: 100rem;
+        }
+        .navbar ul{
+            flex-wrap: wrap;
+
+        }
+        .containerl{
+            margin-left: 15rem;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
+          }
+    }
+}

@@ -1,0 +1,729 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+/* body{
+    background-image: url(/GIF\ FOLDER/gif1.gif);
+} */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgb(129, 239, 129);
+    justify-content: space-between;
+}
+marquee{
+    width: 20rem;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 50%;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: .1rem -0.2rem yellowgreen;
+    margin-top: 2rem;
+}
+
+.container{
+    width: 100%;
+    height: 54.2rem;
+   
+}
+
+.curve{
+    padding-top: 4rem;
+    
+}
+/* JS CODING OF COMPLETER LINKING  */
+
+#logo{
+    margin-top: 0.7rem;
+}
+
+#logo img{
+    width: 3rem;
+    height: 3rem;
+    border: .2rem dotted rgb(245, 200, 200);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#logo img:hover{
+    background-color: rgb(233, 17, 57);
+}
+
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    text-shadow: -0.1rem -0.1rem yellowgreen;
+    
+}
+.navbar ul li a{
+    color: whitesmoke;
+    padding: 2rem;
+    color: rgb(18, 17, 16);
+    padding: 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.navbar ul li a:hover{
+    color: whitesmoke;
+    font-size: 2.4rem;
+ 
+
+    /* transition: 2s; */
+}
+/* input text design section */
+.navbar input{
+    width: 14.4rem;
+    border: .2rem solid;
+    border-radius: .5rem;
+    background-color: #292626;
+    font-size: 1.6rem;
+
+}
+input[type=text]
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .4rem;
+    background-color:white;
+
+
+}
+
+button{
+    border-radius: .4rem;
+}
+#but{
+    width: 5rem;
+    height:2.7rem;
+    border:.2rem solid rgb(206, 177, 177);
+    cursor: pointer;
+    border-left: none;
+    background-color: #e6f0e6;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+#but a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    
+}
+#but:hover{
+    background-color: #d54b4b;
+
+}
+/* NAVBAR DESIGN SECTION END THIS LINE */
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+/* NOW DESING THE FORM SECITON  */
+
+.qua{
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.qua h1{
+    margin-top: 3rem;
+    font-size: 4rem;
+    color: rgb(6 60 190);
+}
+.qua::before{
+    content: ""; 
+    background: url(../GIF\ FOLDER/gif9.gif) no-repeat center center/cover;
+    /* background: url(gif2.gif) no-repeat center center/cover; */
+    position: absolute;
+    height: 110rem;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    z-index: -1;
+    
+    opacity: 0.3;
+}
+
+
+.containerQ{
+    width: 65rem;
+    height: 50rem;
+    border: .7rem solid rgb(7, 190, 53);
+    margin: auto;  
+    box-shadow: .1rem 1rem 2rem rgb(88, 7, 7);
+
+}
+
+.table{
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+
+}
+.table th{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    background-color: gray;
+    color: white;
+}
+.table td{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: aqua;
+
+}
+.button1{
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.button1 button{
+    padding: .7rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 1.7rem;
+    color: white;
+    background-color: rgb(1, 1, 1);
+    text-transform: capitalize;
+
+}
+.button1 button:hover{
+    background-color: rgb(188, 39, 39);
+    color: whitesmoke;
+    box-shadow: -.2rem -.2rem .2rem .2rem red;
+}
+/* NOW QUALIFICATION SECION DESIGN COMPLETE THIS LINE */
+
+
+
+
+/* THIS IS NAVIGATION BAR DESIGN SECTION THIS LINE OF CODING IS START */
+
+
+section{
+    display: block;
+    background-color: #1b0478;
+    color: wheat;
+}
+section:before{
+    content: "";
+    background-color: red;
+    width: 100%;
+    height: rem;
+}
+.subtitle{
+    color: rgb(91, 11, 11);
+    text-align: center;
+    padding-top: 0px;
+}
+.subtitle h1{
+    font-weight: bolder;
+    color: black;
+    font-size: 4rem;
+}
+.subtitle span{
+    color: black;
+    font-weight: bolder;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 600px;
+    height: 800px;
+    padding: 30px 80px;
+    margin-left: 120px;
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    /* that is used to set the thickness of underline */
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 5px;
+    margin-bottom: 30px;
+}
+.bar{
+    font-size: 30px;
+    color: whitesmoke;
+
+}
+.bar span{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.bar{
+    margin: 13px;
+    font-size: 10px;
+}
+.bar{
+    margin: 30px 0px;
+}
+.bar:first-child{
+    margin-top: 0;
+}
+.bar:last-child{
+    margin-bottom: 0;
+}
+.info{
+    margin-bottom: 5px;
+}
+.info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0.5;
+}
+ /* progress bar show this section*/
+.progressline{
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height:10px;
+    background-color: rgb(8, 8, 8);
+    animation: animate 0s cubic-bezier(1,0,0.5,1)  forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.progressline span{
+    /* replace height to width */
+    width: 100%; 
+    background-color: green;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.progressline.html{
+    width: 95%;
+}
+.progressline.css{
+    width: 85%;
+}
+.progressline.python{
+    width: 75%;
+}
+.progressline.java{
+    width: 65%;
+}
+.progressline.react{
+    width: 60%;
+}
+.progressline.js{
+    width: 85%;
+}
+
+
+.progressline::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color:#af9999;
+    color: #fff;
+    font-stretch: 18px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation:showText 5s 13s linear forwards;
+    opacity: 0;
+}
+
+.progressline.html span::after{
+    content: "95%";
+}
+.progressline.css span::after{
+    content: "85%";
+}
+.progressline.python span:after{
+    content: "75%";
+}
+.progressline.java span::after{
+    content: "65%";
+}
+.progressline.react span::after{
+    content: "60%";
+}
+.progressline.js span::after{
+    content: "85%";
+}
+
+.progressline span::before{
+    content:" ";
+    position:absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-block-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #d98c8c;
+    top: -10px;
+    right: 0;
+    animation: showText 16s 15s linear forwards;
+    opacity: 0;
+}
+@keyframes showTest{
+    100%{
+       opacity: 1;
+    }
+} 
+
+
+/* radial bar section start like below of side of text */
+.container1{
+    display: grid;
+    place-items: center;
+    width: 40rem;
+    height: 60rem;
+    /* border:2rem solid red; */
+    margin-left: 20rem;
+
+}
+.radialbars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border:2rem solid rgb(225, 255, 0); */
+    align-items: flex-start;
+}
+.radialbars .radialbar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position:relative;
+
+
+}
+/* working this section */
+.radialbars .radialbar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+/* design this section of bg ot move */
+.radialbars .radialbar .progressbar1{
+    stroke-width: 10;
+    stroke: rgb(0, 0, 0);
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+/* this section move the black color before of %0ef color */
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+/* this section discribe color of circle moving */
+.path{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+/* all the path of animation set this section */
+.path-1{animation: animate-path1 5s 1s linear forwards;}
+.path-2{animation: animate-path1 5s 1s linear forwards;}
+.path-3{animation: animate-path1 5s 1s linear forwards;}
+.path-4{animation: animate-path1 5s 1s linear forwards;}
+ /* running the motion start of round up one by one  */
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes animate-path2{
+    100%{
+        stroke-dashoffset: 175;
+    }
+}
+@keyframes animate-path3{
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+@keyframes animate-path4{
+    100%{
+        stroke-dashoffset: 75;
+    }
+}
+/* percentage go to betweebn of circle */
+.radialbar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.3rem;
+    font-weight: bolder;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 1;
+}
+/* text design */
+.progressbar .text{
+    width: 100%;
+    position:absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 4rem;
+    font-weight:bolder;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+    
+}
+/* NOW END THE PROGRESS BAR DESIGN OF CSS THIS LINE  */
+
+
+
+/* ALL ABOUT OF FOOTER SECTION  */
+/* NOW DESING THE FOOTER SECTION IN THIS TIME  */
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+footer{
+    background-color:#2d3436;
+    width: 100%;
+    height: 50rem;
+}
+#head{
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0rem;
+    text-transform: capitalize;
+    text-shadow: -.2rem -.2rem rgb(7, 7, 5);
+
+    
+}
+.container4{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo1{
+
+    margin: 2rem;
+    text-transform:capitalize;
+    font-size: 2rem;
+    color: #f7f1e3;
+    letter-spacing: .3rem;
+    font-weight:lighter;
+ 
+}
+#logo1:hover{
+    background-color: #06bb18;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem red;
+    padding: .2rem;
+}
+
+/* all of heading design dection */
+h1{
+    font-size: 3.4rem;
+    color:#a4b0be;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.fa-brands{
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+    border-radius:1rem;
+}
+.fa-camera{
+    font-size: 4rem;
+    cursor: pointer;
+    color: white;
+}
+.fa-camera:hover{
+    background-color: #2e7b0b;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem burlywood;
+}
+.fa-brands text{
+    margin-left:1rem;
+    color: whitesmoke;
+}
+/* subscribe section coding  */
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoinfo img{
+    width: 6rem;
+    height: 6rem; 
+    border-radius: 3rem;
+    margin: 1rem;
+}
+
+.newinfo{
+    padding: 1rem 0rem;
+}
+.newinfo h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color:rgb(252, 240, 240);
+    
+}
+.newinfo input{
+    margin-top: .4rem;
+    padding: .6rem;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+    
+   
+    border-radius: 8rem;
+}
+.newinfo button{
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #292626;
+    font-size: 2rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+.newinfo button:hover{
+    background-color: aqua;
+    box-shadow: -.2rem -.2rem .2rem .3rem red;
+}
+/* grmail bal only desogn */
+
+footer p{
+    
+    text-align:center;
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+
+}
+
+
+/* media query selector starting steps  */
+
+@media(max-width:1339px){
+    html{
+        font-size:47%;
+       
+    }
+}
+@media(max-width:1096px){
+    html{
+        font-size:47%;
+        
+        
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:47%;
+        .curve{
+            margin-top: -2rem;
+        }
+        
+        footer{
+            flex-wrap: wrap;
+            height: 80rem;
+        }
+        .front{
+            flex-wrap: wrap;
+        }
+      
+        
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 43%;
+        .heading{
+            margin: 1rem 1rem 0rem 1rem;
+        }
+        
+        .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
+        #logo{
+            margin-left: 45px;
+            
+           }
+           .front{
+            flex-wrap: wrap;
+        }
+   
+    }
+}
+@media(max-width:560px){
+    html{
+        .contant{
+            justify-content: start;
+        }
+        .navbar ul{
+            flex-wrap: wrap;
+        }
+        .heading{
+            margin: 1rem 1rem 0rem 1rem;
+        }
+        footer{
+            
+            flex-wrap: wrap;
+            height: 100rem;
+        }
+    }
+}

@@ -1,0 +1,552 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+/* body{
+    background-image: url(/GIF\ FOLDER/gif1.gif);
+} */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 4.5rem;
+    background-color: rgb(129, 239, 129);
+    justify-content: space-between;
+}
+marquee{
+    width: 20rem;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 50%;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: .1rem -0.2rem yellowgreen;
+    margin-top: 10rem;
+}
+
+.container{
+    width: 100%;
+    height: 5.75rem;
+   
+}
+.curve{
+    margin-top: 38rem;
+    position: relative;
+}
+/* JS CODING OF COMPLETER LINKING  */
+
+#logo{
+    margin-top: 0.7rem;
+}
+
+#logo img{
+    width: 3rem;
+    height: 3rem;
+    border: .2rem dotted rgb(245, 200, 200);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#logo img:hover{
+    background-color: rgb(233, 17, 57);
+}
+
+/* MEDIA QUERY PERFORM  */
+html{
+    font-size: 62.5%;
+}
+/* end media query  */
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    text-shadow: -0.1rem -0.1rem yellowgreen;
+    
+}
+.navbar ul li a{
+    color: whitesmoke;
+    padding: 2rem;
+    color: rgb(18, 17, 16);
+    padding: 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.navbar ul li a:hover{
+    color: red;
+ 
+
+    /* transition: 2s; */
+}
+/* input text design section */
+.navbar input{
+    width: 14.4rem;
+    border: .2rem solid;
+    border-radius: .5rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.6rem;
+
+}
+
+input[type=text]
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .4rem;
+    background-color:white;
+
+
+}
+
+button{
+    border-radius: .4rem;
+}
+#but{
+    width: 5rem;
+    height:2.7rem;
+    border:.2rem solid rgb(206, 177, 177);
+    cursor: pointer;
+    border-left: none;
+    background-color: #e6f0e6;
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+#but a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    
+}
+#but:hover{
+    background-color: #4b70d5;
+
+}
+/* NAVBAR DESIGN SECTION END THIS LINE */
+
+
+
+
+/* design home of project like heading and image  */
+.content{
+    display: flex;
+    justify-content: space-evenly;
+  
+   
+
+
+}
+.content:before{
+    content: " "; /* firstly written this line*/
+    /* background: url(/GIF\ FOLDER/gif7.gif); */
+    background-color:#7f7f73;
+    position: absolute;
+    height: 90rem;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+.heading{
+    margin: 10rem 10rem 0rem 10rem;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.heading h1{
+    color: black;
+    text-shadow: -.1rem -.1rem yellow;
+    padding: 4rem;
+    font-size: 4rem;
+}
+.heading h2{
+    color: brown;
+    margin-top: 0.5rem;
+    text-shadow: -.1rem -.1rem yellow;
+    font-size: 3.3rem;
+    text-decoration: underline;
+
+}
+.heading h3{
+    font-size: 4.6rem;
+    color: black;
+    margin-top: 6rem;
+    font-weight: bolder;
+    font-size: 2.9rem;
+    /* text-shadow: -0.1rem -.1rem rgb(12, 12, 11); */
+}
+.image img{
+    width: 30rem;
+    height: 30rem;
+    background-color: cover;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    border: .6rem solid rgb(5, 13, 163);
+    border-radius: 20rem;
+    background-color:wheat;
+    box-shadow: -.7rem -.9rem .9rem .8rem #beca37f2;
+    margin-top: 7rem;
+   
+
+    
+}
+.image p{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 9rem;
+    color: rgb(213, 63, 63);
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: -.1rem -.1rem rgb(3, 3, 3);
+    
+}
+
+
+
+
+/* CARD SECTION DESIGN  */
+/* PROJECT RELATED DESING SECTION OF CODE  all the card design statting section */
+
+.container1{
+
+    /* margin-top: 10rem; */
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+    background-color: #8ea7bf;
+    border-radius: 1rem;
+    margin-top: 8rem;
+  
+ 
+ 
+    
+
+}
+
+/* caoding design section  */
+.card1{
+    width: 39.6rem;
+    height: 44.5rem;
+    border: .2rem solid rgb(103, 12, 12);
+    margin: 1rem;
+    border-radius: 1rem;
+ background-color: whitesmoke;   
+}
+
+
+.imagecard{
+    background-color: blue;
+    height: 16rem;
+    margin-bottom: 2rem;
+    background-size: cover;
+    border-radius: 1rem;
+    margin-bottom: 15rem;
+    /* mix-blend-mode: color-burn; */
+}
+
+.cardd1{
+    
+    background-image: url(../GIF\ FOLDER/gif2.gif);
+    background-image: fixed;
+    background-size: cover;
+    
+}
+.cardd2{
+    background-image: url(../IMAGE\ FOLDER/image2.webp);
+    background-size: cover;
+}
+.cardd3{
+    background-image: url(../GIF\ FOLDER/gif3.gif);
+    background-image: fixed;
+    background-size: cover;
+}
+.cardd4{
+    background-image: url(../GIF\ FOLDER/gif4.gif);
+    background-image: fixed;
+    background-image: cover;
+}
+.cardd5{
+    background-image: url(../GIF\ FOLDER/gif5.gif);
+    background-image: fixed;
+    background-image: cover;
+}
+.cardd6{
+    background-image: url(../GIF\ FOLDER/gif8.gif);
+    background-image: fixed;
+    background-image: cover;
+}
+.imagecard h1{
+    padding-top: 17rem;
+    font-size: 2.7rem;
+    text-align:center;
+    color: red;
+    text-shadow: -.2rem -.2rem white;
+    
+}
+.btn1{
+    margin-left: 10rem;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 1.8rem;
+}
+
+.card1 button{
+    padding: .3rem;
+    margin-top: 1rem;
+    border-radius: 1.4rem;
+    padding: 0.4rem;
+    background-color:rgb(40, 39, 35);
+    cursor: pointer;
+
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.card button a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1 button:hover{
+    background-color: green;
+    box-shadow: -.2rem -.2rem .2rem .2rem red;
+  
+}
+
+.container1 p{
+    font-size: 1.8rem;
+    margin-top: .5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 1rem;
+    text-overflow:none;
+    text-align:justify;
+   
+    
+}
+
+
+
+
+
+/* ALL ABOUT OF FOOTER SECTION  */
+/* NOW DESING THE FOOTER SECTION IN THIS TIME  */
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+footer{
+    background-color:#2d3436;
+    width: 100%;
+    height: 50rem;
+}
+#head{
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0rem;
+    text-transform: capitalize;
+    text-shadow: -.2rem -.2rem rgb(7, 7, 5);
+
+    
+}
+.container4{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo1{
+
+    margin: 2rem;
+    text-transform:capitalize;
+    font-size: 2rem;
+    color: #f7f1e3;
+    letter-spacing: .3rem;
+    font-weight:lighter;
+ 
+}
+#logo1:hover{
+    background-color: #06bb18;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem red;
+    padding: .2rem;
+}
+
+/* all of heading design dection */
+h1{
+    font-size: 3.4rem;
+    color:#a4b0be;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.fa-brands{
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+    border-radius:1rem;
+}
+.fa-camera{
+    font-size: 4rem;
+    cursor: pointer;
+    color: white;
+}
+.fa-camera:hover{
+    background-color: #2e7b0b;
+    border: 1.5rem;
+    box-shadow: -.2rem -.2rem .2rem .5rem burlywood;
+}
+.fa-brands text{
+    margin-left:1rem;
+    color: whitesmoke;
+}
+/* subscribe section coding  */
+.logo1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoinfo img{
+    width: 6rem;
+    height: 6rem; 
+    border-radius: 3rem;
+    margin: 1rem;
+}
+
+.newinfo{
+    padding: 1rem 0rem;
+}
+.newinfo h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color:rgb(252, 240, 240);
+    
+}
+.newinfo input{
+    margin-top: .4rem;
+    padding: .6rem;
+    cursor: pointer;
+    color: black;
+    font-size: 2rem;
+    
+   
+    border-radius: 8rem;
+}
+.newinfo button{
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: #292626;
+    font-size: 2rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+.newinfo button:hover{
+    background-color: aqua;
+    box-shadow: -.2rem -.2rem .2rem .3rem red;
+}
+/* grmail bal only desogn */
+
+footer p{
+    
+    text-align:center;
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+    margin-top: 7rem;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+
+}
+
+
+
+
+@media(max-width:1339px){
+    html{
+        font-size:47%;
+       
+    }
+}
+@media(max-width:1096px){
+    html{
+        font-size:47%;
+        
+        
+    }
+}
+
+@media(max-width:998px){
+    html{
+        font-size:47%;
+     
+        footer{
+            flex-wrap: wrap;
+            height: 80rem;
+        }
+        .front{
+            flex-wrap: wrap;
+        }
+      
+        
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 43%;
+        .heading{
+            margin: 1rem 1rem 0rem 1rem;
+        }
+  
+        .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
+        #logo{
+            margin-left: 45rem;
+            
+           }
+           .front{
+            flex-wrap: wrap;
+        }
+   
+    }
+}
+@media(max-width:560px){
+    html{
+        .contant{
+            justify-content: start;
+        }
+        .navbar ul{
+            flex-wrap: wrap;
+        }
+        .heading{
+            margin: 1rem 1rem 0rem 1rem;
+        }
+        footer{
+            
+            flex-wrap: wrap;
+            height: 100rem;
+        }
+    }
+}
