@@ -7,7 +7,7 @@ a*{
     flex-wrap: wrap;
 
     width: 100%;
-    height: 4.5rem;
+    height: 12rem;
     background-color: rgb(161, 205, 161);
     justify-content: space-between;
 }
