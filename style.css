@@ -7,7 +7,7 @@ a*{
     flex-wrap: wrap;
 
     width: 100%;
-    height: 12rem;
+    height: 4.5rem;
     background-color: rgb(161, 205, 161);
     justify-content: space-between;
 }
@@ -687,7 +687,44 @@ footer p{
     }
 }
 
+@media(max-width:344px){
+    html{
+       
+        footer{
+            flex-wrap: wrap;
+            height: 100rem;
 
+        }
+        .about{
+        height: 200rem;
+        
+        }
+        .navbar ul{
+            margin:0px;
+            padding: 0px;
+        }
+        .about p{
+            overflow: hidden;
+        }
+        .logo img{
+            margin-right:0 rem;
+            background-color: red;
+           }
+           .curve{
+            padding-top: 12rem;
+           }
+           .container2{
+            margin-top: 2rem;
+            height: 90rem;
+            margin-right: 4px;
+            overflow: hidden;
+           }
+        marquee{
+            margin-top:40rem;
+        }
+        
+    }
+}
 
 
 
