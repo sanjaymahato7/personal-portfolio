@@ -414,7 +414,7 @@ html{
 footer{
     background-color:#2d3436;
     width: 100%;
-    height: 50rem;
+    height: 60rem;
 }
 #head{
     font-size: 3rem;
@@ -462,6 +462,7 @@ h1{
     color: white;
     cursor: pointer;
     border-radius:1rem;
+    flex-wrap:wrap;
 }
 .fa-camera{
     font-size: 4rem;
@@ -604,17 +605,27 @@ footer p{
        
         footer{
             flex-wrap: wrap;
-            height: 80rem;
+            display:block;
+            height: 90rem;
+            width:100%;
 
         }
+           .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
         .about p{
             overflow: hidden;
+            display:block;
         }
         .logo img{
             margin-right:0.5rem;
            }
            .container2{
             height: 480px;
+               width:100%;
            }
     }
 }
@@ -623,8 +634,14 @@ footer p{
         .about p{
             flex-wrap: wrap;
         }
+           .navbar{
+            height: 10rem;
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
         marquee{
-            margin-top: 5rem;
+            margin-top: 10rem;
         }
      
     }
