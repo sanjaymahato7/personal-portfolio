@@ -14,17 +14,6 @@
     background-color: rgb(129, 239, 129);
     justify-content: space-between;
 }
-marquee{
-    width: 20rem;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 4rem;
-    margin-left: 50%;
-    text-transform: capitalize;
-    color: black;
-    text-shadow: .1rem -0.2rem yellowgreen;
-    margin-top: 2rem;
-}
 
 .container{
     width: 100%;
@@ -693,15 +682,26 @@ footer p{
         }
         
         .navbar{
-            height: 10rem;
+            height: 100rem;
             display: block;
-            background-color: rgb(106, 172, 106)
+            background-color: rgb(106, 172, 106);
             
            }
+        .navbar ul li a{
+            flex-wrap:wrap;
+            height:200rem;
+               background-color: red;
+            
+            
+        
         #logo{
             margin-left: 45px;
             
            }
+            .qua h1{
+                font-size:25rem;
+                flex-wrap:wrap;
+            }
            .front{
             flex-wrap: wrap;
         }
@@ -720,7 +720,7 @@ footer p{
             margin: 1rem 1rem 0rem 1rem;
         }
         footer{
-            
+            backgroud-color:red;
             flex-wrap: wrap;
             height: 100rem;
         }
