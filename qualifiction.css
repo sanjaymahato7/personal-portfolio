@@ -715,7 +715,7 @@ footer p{
             justify-content: start;
         }
   
-        .navbar ul li{
+        .navbar ul{
             flex-wrap: wrap;
           
         }
