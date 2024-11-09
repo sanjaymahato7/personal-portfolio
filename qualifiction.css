@@ -714,13 +714,10 @@ footer p{
         .contant{
             justify-content: start;
         }
-        .navbar{
-            height:180rem;
-            backgroud-color:green;
-        }
+  
         .navbar ul li{
-/*             flex-wrap: wrap; */
-            display:block;
+            flex-wrap: wrap;
+          
         }
         .heading{
             margin: 1rem 1rem 0rem 1rem;
@@ -728,7 +725,7 @@ footer p{
         footer{
             backgroud-color:red;
             flex-wrap: wrap;
-            height: 200rem;
+            height: 150rem;
         }
     }
 }
