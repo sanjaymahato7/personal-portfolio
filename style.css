@@ -655,17 +655,7 @@ footer p{
            }
     }
 }
-@media(max-width:689px){
-    html{
-        .about p{
-            flex-wrap: wrap;
-        }
-        marquee{
-            margin-top: 5rem;
-        }
-     
-    }
-}
+
 
 
 
