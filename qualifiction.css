@@ -710,11 +710,17 @@ footer p{
 }
 @media(max-width:560px){
     html{
+              font-size: 42%;
         .contant{
             justify-content: start;
         }
-        .navbar ul{
-            flex-wrap: wrap;
+        .navbar{
+            height:180rem;
+            backgroud-color:green;
+        }
+        .navbar ul li{
+/*             flex-wrap: wrap; */
+            display:block;
         }
         .heading{
             margin: 1rem 1rem 0rem 1rem;
