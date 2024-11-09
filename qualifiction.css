@@ -689,7 +689,8 @@ footer p{
            }
         .navbar ul li a{
             flex-wrap:wrap;
-            height:6rem;
+            line-space:2rem;
+        }
             
             
             
@@ -715,8 +716,9 @@ footer p{
             justify-content: start;
         }
   
-        .navbar ul{
+        .navbar ul li a{
             flex-wrap: wrap;
+            line-space:2rem;
           
         }
         .heading{
