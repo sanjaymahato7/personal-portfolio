@@ -722,7 +722,7 @@ footer p{
         footer{
             backgroud-color:red;
             flex-wrap: wrap;
-            height: 100rem;
+            height: 200rem;
         }
     }
 }
