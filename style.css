@@ -614,10 +614,10 @@ footer p{
 @media(max-width:498px){
     html{
         .navbar{
-            height: 15rem;
+            height: 35rem;
         }
-       .navbar ul{
-        height: 8rem;
+       .navbar ul li a{
+        padding:0.8rem;
        
        }
        .front span {
@@ -629,6 +629,7 @@ footer p{
 
         }
         .about{
+            margin-top:23rem;
         height: 70rem;
         
         }
@@ -649,7 +650,7 @@ footer p{
            }
            .container2{
             margin-top: 2rem;
-            height: 64rem;
+            height: 104rem;
             margin-right: 4px;
             overflow: hidden;
            }
