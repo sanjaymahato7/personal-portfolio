@@ -151,8 +151,7 @@ html{
 }
 .qua::before{
     content: ""; 
-    background: url(../GIF\ FOLDER/gif9.gif) no-repeat center center/cover;
-    /* background: url(gif2.gif) no-repeat center center/cover; */
+    background: url(/gif9.gif) no-repeat center center/cover;
     position: absolute;
     height: 110rem;
     width: 100%;
