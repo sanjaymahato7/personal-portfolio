@@ -549,21 +549,6 @@ footer p{
 /*  APPLY MEDIA QUARY  */
 
 
-@media(max-width:1339px){
-    html{
-        font-size:47%;
-       
-        
-    }
-}
-@media(max-width:1096px){
-    html{
-        font-size:47%;
-        
-      
-        
-    }
-}
 
 @media(max-width:998px){
     html{
@@ -571,7 +556,7 @@ footer p{
      
         footer{
             flex-wrap: wrap;
-            height: 800rem;
+            height: 80rem;
         }
         .front{
             flex-wrap: wrap;
@@ -584,10 +569,15 @@ footer p{
     html{
         font-size: 43%;
         .navbar{
-            height: 120rem;
+            height: 12rem;
             display: block;
             background-color: rgb(106, 172, 106)
             
+           }
+           .navbar ul li a{
+            padding: 0.5rem;
+            
+
            }
         #logo{
             margin-left: 45rem;
@@ -599,72 +589,69 @@ footer p{
    
     }
 }
-@media(max-width:570px){
+@media(max-width:591px){
     html{
-       
-        footer{
-            flex-wrap: wrap;
-            height: 1500px;
-            width:100%;
-
-        }
-           .navbar{
-            height: 50rem;
+        .navbar ul li a{
             display: block;
-            background-color: rgb(106, 172, 106)
-            
-           }
-        .log img{
-            margin-left:2px;
-            
+            padding: .8rem;
+            height: auto;
         }
-        .about p{
-            overflow: hidden;
-            display:block;
-        }
-        .logo img{
-            margin-right:0.5rem;
-           }
-           .container2{
-            height: 480px;
-               width:100%;
-           }
-    }
-}
-
-@media(max-width:468px){
-    html{
        
         footer{
             flex-wrap: wrap;
             height: 100rem;
-            width:100%;
 
-        }
-        .navbar ul{
-    display: flex;
-    flex-wrap: wrap;
-
-    width: 100%;
-    height: 2rem;
-    background-color: rgb(161, 205, 161);
-    justify-content: space-between;
-            margin-left:0px;
-}
-        .log img{
-           padding:0px;
-            margin:0px;
-            
         }
         .about p{
             overflow: hidden;
-            display:block;
         }
-      
+        .logo img{
+            margin-right:0.5rem;
+           }
+        
+    }
+}
+@media(max-width:498px){
+    html{
+        .navbar{
+            height: 15rem;
+        }
+       .navbar ul{
+        height: 8rem;
+       
+       }
+       .front span {
+        font-size: 2rem;
+       }
+        footer{
+            flex-wrap: wrap;
+            height: 90rem;
+
+        }
+        .about{
+        height: 70rem;
+        
+        }
+        .navbar ul{
+            margin:0px;
+            flex-wrap: wrap;
+            padding: 0px;
+        }
+        .about p{
+            overflow: hidden;
+        }
+        .logo img{
+            margin-right:0rem;
+            
+           }
+           .curve{
+            padding-top: 12rem;
+           }
            .container2{
-            height: 1200px;
-               flex-wrap:wrap;
-               width:100%;
+            margin-top: 2rem;
+            height: 64rem;
+            margin-right: 4px;
+            overflow: hidden;
            }
     }
 }
@@ -672,68 +659,13 @@ footer p{
     html{
         .about p{
             flex-wrap: wrap;
-            display:block;
         }
-           .navbar{
-            height: 10rem;
-            display: block;
-            background-color: rgb(106, 172, 106)
-            
-           }
         marquee{
-            margin-top: 10rem;
+            margin-top: 5rem;
         }
      
     }
 }
-
-@media(max-width:344px){
-    html{
-       
-        footer{
-            flex-wrap: wrap;
-            height: 100rem;
-
-        }
-        .about{
-        height: 200rem;
-        
-        }
-        .navbar ul{
-            margin:0px;
-            padding: 0px;
-        }
-        .about p{
-            overflow: hidden;
-        }
-        .logo img{
-            margin-right:0 rem;
-            background-color: red;
-           }
-           .curve{
-            padding-top: 12rem;
-           }
-           .container2{
-            margin-top: 2rem;
-            height: 90rem;
-            margin-right: 4px;
-            overflow: hidden;
-           }
-        marquee{
-            margin-top:40rem;
-        }
-        
-    }
-}
-
-
-
-
-
-
-
-
-
 
 
 
