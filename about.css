@@ -642,7 +642,7 @@ footer p{
     }
         footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: rem;
         }
     
 }
