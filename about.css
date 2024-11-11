@@ -605,16 +605,20 @@ footer p{
     marquee{
         margin-left:12rem;
     }
-    .navbar ul li{
+    .navbar ul li a{
         flex-wrap:wrap;
     }
         #logo{
-            margin-left: 45rem;
+            margin-left: 25rem;
             
            }
            .front{
             flex-wrap: wrap;
         }
+    .container2{
+        height:100rem;
+        font-size:2rem;
+    }
    
     
 }
