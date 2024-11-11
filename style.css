@@ -135,8 +135,9 @@ button{
 /* thai is profile desigm section */
 .profile{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin:auto;
     
 }
 
