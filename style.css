@@ -589,13 +589,7 @@ footer p{
             padding: 0.5rem;
            }
     
-    .profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-        margin:auto;
-    
-}
+
         #logo{
             margin-left: 25rem;
             
@@ -607,7 +601,7 @@ footer p{
             height: 100rem;
         }
         .curve{
-            margin-top:60rem ;
+            margin-top:130rem ;
            }
    
     
@@ -681,7 +675,7 @@ footer p{
            .container2{
             margin-top: 2rem;
             height: 69rem;
-            margin-right: 4px;
+            margin-right: 40px;
             overflow: hidden;
            }
     }
