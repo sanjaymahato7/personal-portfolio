@@ -590,14 +590,14 @@ footer p{
 
            }
         #logo{
-            margin-left: 45rem;
+            margin-left: 25rem;
             
            }
            .front{
             flex-wrap: wrap;
         }
         footer{
-            height: 75rem;
+            height: 100rem;
         }
         .curve{
             margin-top:60rem ;
