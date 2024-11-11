@@ -578,9 +578,7 @@ footer p{
             display: block;
             
            }
-    .navbar ul{
-        margin-rigth:4rem;
-    }
+ 
    
     .navbar ul li{
         margin-left:2rem;
@@ -613,7 +611,7 @@ footer p{
    }
         .navbar{
             display: block;
-            background-color: rgb(106, 172, 106)
+
             
            }
         .navbar ul li a{
