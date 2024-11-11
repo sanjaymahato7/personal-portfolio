@@ -11,14 +11,14 @@
 
     width: 100%;
     height: 4.5rem;
-    background-color: rgb(129, 239, 129);
+    background-color:#a4b0be;
     justify-content: space-between;
 }
 marquee{
     width: 24rem;
     justify-content: space-around;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 50%;
     text-transform: capitalize;
     color: black;
@@ -567,24 +567,19 @@ footer p{
 
 @media(max-width:1339px){
     html{
-        font-size:47%;
-        background-color: rgb(225, 104, 5);
-      
-        
+        font-size:42%;
     }
 }
 @media(max-width:1096px){
     html{
-        font-size:47%;
-        background-color: rgb(5, 5, 5);
-      
-        
+        font-size:45%;
     }
 }
 
 @media(max-width:998px){
     html{
         font-size:47%;
+    }
      
         footer{
             flex-wrap: wrap;
@@ -595,16 +590,16 @@ footer p{
         }
       
         
-    }
+    
 }
 @media(max-width:768px){
     html{
         font-size: 43%;
-  
+    }
         .navbar{
             height: 10rem;
             display: block;
-            background-color: rgb(106, 172, 106)
+/*             background-color: rgb(106, 172, 106) */
             
            }
         #logo{
@@ -615,15 +610,17 @@ footer p{
             flex-wrap: wrap;
         }
    
-    }
+    
 }
 @media(max-width:522px){
     html{
+        font-size:43%;
+    }
         footer{
             flex-wrap: wrap;
             height: 100rem;
         }
-    }
+    
 }
 
 
