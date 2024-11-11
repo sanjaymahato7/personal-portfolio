@@ -606,6 +606,7 @@ footer p{
     }
     .navbar ul{
         flex-wrap:wrap;
+        padding:0.3rem;
     }
         #logo{
             margin-left: 25rem;
@@ -620,15 +621,14 @@ footer p{
             flex-wrap: wrap;
         }
     .container2{
-        height:100rem;
+        height:70rem;
         font-size:2rem;
     }
    .about{
        margin-left:3rem;
    }
     footer{
-        flex-wrap:wrap;
-        width:100rem;
+        height:80rem;
     }
     .log img{
         magin-left:0.8rem;
