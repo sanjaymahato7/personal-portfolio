@@ -2,16 +2,14 @@
     padding: 0rem;
     margin: 0rem;
 }
-/* body{
-    background-image: url(/GIF\ FOLDER/gif1.gif);
-} */
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
 
     width: 100%;
     height: 4.5rem;
-    background-color: rgb(161, 205, 161);
+    background-color:#a4b0be;
     justify-content: space-between;
 }
 marquee{
@@ -39,6 +37,7 @@ marquee{
 
 #logo{
     margin-top: 0.7rem;
+    margin-left:4rem;
 }
 
 #logo img{
@@ -61,6 +60,7 @@ marquee{
     list-style: none;
     margin-top: 1rem;
     font-size: 2.1rem;
+    margin-right:4rem;
     text-transform: capitalize;
     text-shadow: -0.1rem -0.1rem yellowgreen;
     
@@ -102,12 +102,12 @@ button{
 }
 #but{
     width: 5rem;
-    height:2.7rem;
-    border:.2rem solid rgb(206, 177, 177);
+    height:2.8rem;
+    border:.4rem solid black;
     cursor: pointer;
     border-left: none;
     background-color: #e6f0e6;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
@@ -132,7 +132,7 @@ button{
 /* thai is profile desigm section */
 .profile{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
 }
@@ -559,11 +559,12 @@ footer p{
      
         footer{
             flex-wrap: wrap;
-            height: 80rem;
+            height: 75rem;
         }
         .front{
             flex-wrap: wrap;
         }
+ 
       
         
     
@@ -573,11 +574,14 @@ footer p{
         font-size: 43%;
     }
         .navbar{
-            height: 8rem;
+            height: 12rem;
             display: block;
-            background-color: rgb(106, 172, 106)
             
            }
+    .navbar ul{
+        margin-rigth:4rem;
+    }
+   
     .navbar ul li{
         margin-left:2rem;
         margin-right:2rem;
@@ -588,15 +592,18 @@ footer p{
            }
         #logo{
             margin-left:25rem;
-            
+             margin-top:1rem;
            }
            .front{
             flex-wrap: wrap;
         }
        footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: 75rem;
         }
+    .curve{
+        margin-top:60rem;
+    }
    
     
 }
@@ -617,7 +624,7 @@ footer p{
        
         footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: 70rem;
 
         }
         .about p{
@@ -626,6 +633,12 @@ footer p{
         .logo img{
             margin-right:0.5rem;
            }
+       .curve{
+        margin-top:60rem;
+    }
+      .container2{
+            height: 50rem;
+        }
         
     
 }
@@ -637,7 +650,7 @@ footer p{
             height: 15rem;
         }
        .navbar ul{
-        height: 8rem;
+        height: 12rem;
        
        }
        .front span {
@@ -675,20 +688,6 @@ footer p{
            }
     
 }
-@media(max-width:689px){
-    html{
-        font-size:6px;
-    }
-        .about p{
-            flex-wrap: wrap;
-        }
-        marquee{
-            margin-top: 5rem;
-        }
-     
-    
-}
-
 
 
 
