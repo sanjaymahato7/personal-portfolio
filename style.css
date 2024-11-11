@@ -55,8 +55,8 @@ marquee{
     background-color: rgb(233, 17, 57);
 }
 .navbar ul{
-    margin-left: 4rem;
-    margin-right: 4rem;
+ 
+    margin-right: 2rem;
 }
 
 
@@ -589,6 +589,13 @@ footer p{
             
 
            }
+    .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin:auto;
+    
+}
         #logo{
             margin-left: 25rem;
             
