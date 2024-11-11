@@ -123,11 +123,11 @@ button{
 #but{
     width: 5rem;
     height:2.7rem;
-    border:.2rem solid rgb(206, 177, 177);
+    border:.2rem solid black;
     cursor: pointer;
     border-left: none;
     background-color: #e6f0e6;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
@@ -138,10 +138,7 @@ button{
     background-color: #fff;
     
 }
-#but:hover{
-    background-color: #d54b4b;
 
-}
 /* NAVBAR DESIGN SECTION END THIS LINE */
 
 
