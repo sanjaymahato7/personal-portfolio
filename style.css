@@ -549,7 +549,7 @@ footer p{
 
 @media(max-width:998px){
     html{
-        font-size:47%;
+        font-size:42%;
     }
         footer{
             flex-wrap: wrap;
@@ -594,11 +594,14 @@ footer p{
             flex-wrap: wrap;
         }
         footer{
-            height: 120rem;
+            height: 70rem;
         }
         .curve{
-            height:100rem;
+            height:80rem;
            }
+    .container2{
+        height:70rem;
+    }
    
     
 }
@@ -608,7 +611,7 @@ footer p{
     }
         .navbar ul li a{
             display: block;
-            padding: .8rem;
+            padding: .6rem;
             height: auto;
         }
        .curve{
@@ -621,7 +624,7 @@ footer p{
 
         }
         .container2{
-            height: 50rem;
+            height: 70rem;
         }
         .about p{
             overflow: hidden;
