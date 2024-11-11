@@ -36,7 +36,7 @@ marquee{
 /* JS CODING OF COMPLETER LINKING  */
 
 #logo{
-    margin-top: 0.7rem;
+    margin-top: 0.4rem;
     margin-left: 4rem;
 }
 
@@ -64,7 +64,7 @@ marquee{
 }
 .navbar ul li a{
     color: rgb(18, 17, 16);
-    padding: 2rem;
+    padding: 1rem;
     text-decoration: none;
     font-weight: bolder;
 
@@ -572,16 +572,15 @@ footer p{
             /* background-color: rgb(106, 172, 106) */
             
            }
-           .navbar ul{
-            margin-left: 2rem;
-        
-           }
            .navbar ul li a{
             padding: 0.5rem;
            }
     .photo img{
-        width:20rem;
-        height:20rem;
+        width:16rem;
+        height:16rem;
+    }
+    .intro{
+        font-size:2.3rem;
     }
     
 
@@ -594,10 +593,10 @@ footer p{
             flex-wrap: wrap;
         }
         footer{
-            height: 70rem;
+            height: 170rem;
         }
         .curve{
-            height:80rem;
+            height:50rem;
            }
     .container2{
         height:70rem;
