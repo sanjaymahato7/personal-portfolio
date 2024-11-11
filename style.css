@@ -85,7 +85,7 @@ marquee{
     border: .2rem solid;
     border-radius: .5rem;
     background-color: #292626;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 
 }
 input[type=text]
@@ -573,21 +573,29 @@ footer p{
         font-size: 43%;
     }
         .navbar{
-            height: 10rem;
+            height: 8rem;
             display: block;
             background-color: rgb(106, 172, 106)
             
            }
+    .navbar ul li{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
            .navbar ul li a{
             padding: 0.5rem;
                magin-left:2rem;
            }
         #logo{
-            margin-left:45rem;
+            margin-left:25rem;
             
            }
            .front{
             flex-wrap: wrap;
+        }
+       footer{
+            flex-wrap: wrap;
+            height: 100rem;
         }
    
     
