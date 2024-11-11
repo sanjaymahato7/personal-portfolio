@@ -597,15 +597,16 @@ footer p{
             margin-top:1rem;
             
            }
+      .curve{
+        height:14rem;
+           margin-top:66rem;
+       }
            .front{
             flex-wrap: wrap;
         }
         footer{
-            height: 170rem;
+            height: 80rem;
         }
-        .curve{
-            height:50rem;
-           }
     .container2{
         height:80rem;
     }
@@ -623,10 +624,11 @@ footer p{
             display: block;
             padding: .6rem;
             height: auto;
-        }
-       .curve{
-        height:20rem;
+        }  .curve{
+        height:14rem;
+           margin-top:66rem;
        }
+     
 
         footer{
             height: 92rem;
