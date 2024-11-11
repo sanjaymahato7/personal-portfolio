@@ -582,13 +582,12 @@ footer p{
            }
            .navbar ul li{
             margin-left: 2rem;
-            margin-right: 2rem;
+        
            }
            .navbar ul li a{
             padding: 0.5rem;
-            
-
            }
+    
     .profile{
     display: flex;
     justify-content: center;
@@ -648,7 +647,7 @@ footer p{
             height: 15rem;
         }
        .navbar ul{
-        height: 8rem;
+        height: 18rem;
        
        }
        .front span {
@@ -656,7 +655,7 @@ footer p{
        }
         footer{
             flex-wrap: wrap;
-            height: 70rem;
+            height: 100rem;
 
         }
         .about{
@@ -680,7 +679,7 @@ footer p{
            }
            .container2{
             margin-top: 2rem;
-            height: 64rem;
+            height: 69rem;
             margin-right: 4px;
             overflow: hidden;
            }
