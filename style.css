@@ -564,7 +564,7 @@ footer p{
 }
 @media(max-width:768px){
     html{
-        font-size: 44%;
+        font-size: 40%;
     }
         .navbar{
             height: 12rem;
@@ -572,7 +572,7 @@ footer p{
             /* background-color: rgb(106, 172, 106) */
             
            }
-           .navbar ul li{
+           .navbar ul{
             margin-left: 2rem;
         
            }
@@ -587,16 +587,17 @@ footer p{
 
         #logo{
             margin-left: 25rem;
+            margin-top:1rem;
             
            }
            .front{
             flex-wrap: wrap;
         }
         footer{
-            height: 100rem;
+            height: 120rem;
         }
         .curve{
-            margin-top:130rem ;
+            height:100rem;
            }
    
     
