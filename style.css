@@ -555,6 +555,7 @@ footer p{
 @media(max-width:998px){
     html{
         font-size:47%;
+    }
      
         footer{
             flex-wrap: wrap;
@@ -565,11 +566,12 @@ footer p{
         }
       
         
-    }
+    
 }
 @media(max-width:768px){
     html{
         font-size: 43%;
+    }
         .navbar{
             height: 12rem;
             display: block;
@@ -578,21 +580,26 @@ footer p{
            }
            .navbar ul li a{
             padding: 0.5rem;
-            
-
            }
         #logo{
-            margin-left: 45rem;
+            margin-left:25rem;
             
            }
            .front{
             flex-wrap: wrap;
         }
    
-    }
+    
 }
 @media(max-width:591px){
-    html{
+   html{
+       font-size:42%;
+   }
+        .navbar{
+            display: block;
+            background-color: rgb(106, 172, 106)
+            
+           }
         .navbar ul li a{
             display: block;
             padding: .8rem;
@@ -611,10 +618,12 @@ footer p{
             margin-right:0.5rem;
            }
         
-    }
+    
 }
 @media(max-width:498px){
     html{
+        font-size:43rem;
+    }
         .navbar{
             height: 15rem;
         }
@@ -655,10 +664,12 @@ footer p{
             margin-right: 4px;
             overflow: hidden;
            }
-    }
+    
 }
 @media(max-width:689px){
     html{
+        font-size:6px;
+    }
         .about p{
             flex-wrap: wrap;
         }
@@ -666,8 +677,19 @@ footer p{
             margin-top: 5rem;
         }
      
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
