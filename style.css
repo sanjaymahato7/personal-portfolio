@@ -126,7 +126,7 @@ button{
 /* thai is profile desigm section */
 .profile{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin:auto;
     
@@ -575,6 +575,14 @@ footer p{
            .navbar ul li a{
             padding: 0.5rem;
            }
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    
+}
+    
     .photo img{
         width:16rem;
         height:16rem;
