@@ -600,6 +600,9 @@ footer p{
             height: 11rem;
             display: block;
            }
+    .navbar ul li{
+        padding:0.3rem;
+    }
     
     marquee{
         margin-left:12rem;
@@ -621,14 +624,14 @@ footer p{
             flex-wrap: wrap;
         }
     .container2{
-        height:70rem;
+        height:68rem;
         font-size:2rem;
     }
    .about{
        margin-left:3rem;
    }
     footer{
-        height:9rem;
+        height:94rem;
     }
     .log img{
         magin-left:0.8rem;
@@ -642,7 +645,7 @@ footer p{
     }
         footer{
             flex-wrap: wrap;
-            height: rem;
+            height:101rem;
         }
     
 }
