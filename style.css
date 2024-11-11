@@ -573,16 +573,17 @@ footer p{
         font-size: 43%;
     }
         .navbar{
-            height: 12rem;
+            height: 10rem;
             display: block;
             background-color: rgb(106, 172, 106)
             
            }
            .navbar ul li a{
             padding: 0.5rem;
+               magin-left:2rem;
            }
         #logo{
-            margin-left:25rem;
+            margin-left:45rem;
             
            }
            .front{
