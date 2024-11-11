@@ -597,11 +597,11 @@ footer p{
         font-size: 43%;
     }
         .navbar{
-            height: 11rem;
+            height:13rem;
             display: block;
            }
     .navbar ul li{
-        padding:0.3rem;
+        padding-top:0.2rem;
     }
     
     marquee{
@@ -631,7 +631,7 @@ footer p{
        margin-left:3rem;
    }
     footer{
-        height:94rem;
+        height:100rem;
     }
     .log img{
         magin-left:0.8rem;
@@ -645,7 +645,7 @@ footer p{
     }
         footer{
             flex-wrap: wrap;
-            height:101rem;
+            height:120rem;
         }
     
 }
