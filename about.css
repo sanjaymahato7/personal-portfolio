@@ -602,7 +602,7 @@ footer p{
             display: block;
            }
     .navbar ul li{
-        line-height:2.4rem;
+        line-height:4.4rem;
     }
     
     marquee{
@@ -614,7 +614,7 @@ footer p{
     }
         #logo{
             margin-left: 25rem;
-            margin-top:0.5rem;
+            margin-top:1rem;
             
            }
     .front span{
