@@ -599,9 +599,8 @@ footer p{
         .navbar{
             height: 10rem;
             display: block;
-/*             background-color: rgb(106, 172, 106) */
-            
            }
+    
     marquee{
         margin-left:12rem;
     }
@@ -619,7 +618,15 @@ footer p{
         height:100rem;
         font-size:2rem;
     }
-   
+   .about{
+       margin-left:3rem;
+   }
+    footer{
+        width:80rem;
+    }
+    .log img{
+        magin-left:1rem;
+    }
     
 }
 @media(max-width:522px){
