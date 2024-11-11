@@ -604,13 +604,17 @@ footer p{
     marquee{
         margin-left:12rem;
     }
-    .navbar ul li a{
+    .navbar ul{
         flex-wrap:wrap;
     }
         #logo{
             margin-left: 25rem;
             
            }
+    .front span{
+        font-size:2.4rem;
+    }
+    
            .front{
             flex-wrap: wrap;
         }
