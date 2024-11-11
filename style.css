@@ -567,7 +567,7 @@ footer p{
         font-size: 40%;
     }
         .navbar{
-            height: 13rem;
+            height: 10rem;
             display: block;
             /* background-color: rgb(106, 172, 106) */
             
@@ -601,11 +601,15 @@ footer p{
         #logo{
             margin-left: 25rem;
             margin-top:1rem;
+            margin-left:2px;
             
            }
+    .log img{
+        margin-left:12px;
+    }
       .curve{
         height:14rem;
-           margin-top:66rem;
+           margin-top:46rem;
        }
            .front{
             flex-wrap: wrap;
