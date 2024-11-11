@@ -2,25 +2,28 @@
     padding: 0rem;
     margin: 0rem;
 }
-
+/* body{
+    background-image: url(/GIF\ FOLDER/gif1.gif);
+} */
 .navbar{
     display: flex;
     flex-wrap: wrap;
 
     width: 100%;
     height: 4.5rem;
-    background-color:#a4b0be;
+    background-color: #a4b0be;
     justify-content: space-between;
 }
 marquee{
-    width: 20rem;
+    width: 30rem;
     justify-content: space-around;
     text-align: center;
     font-size: 4rem;
-    margin-left: 50%;
+    margin-left: 40%;
     text-transform: capitalize;
     color: black;
-    text-shadow: .1rem -0.2rem yellowgreen;
+    font-weight: bolder;
+  
     margin-top: 2rem;
 }
 
@@ -37,7 +40,7 @@ marquee{
 
 #logo{
     margin-top: 0.7rem;
-    margin-left:4rem;
+    margin-left: 4rem;
 }
 
 #logo img{
@@ -51,6 +54,10 @@ marquee{
 #logo img:hover{
     background-color: rgb(233, 17, 57);
 }
+.navbar ul{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
 
 
 
@@ -60,9 +67,8 @@ marquee{
     list-style: none;
     margin-top: 1rem;
     font-size: 2.1rem;
-    margin-right:4rem;
     text-transform: capitalize;
-    text-shadow: -0.1rem -0.1rem yellowgreen;
+    font-weight: bolder;
     
 }
 .navbar ul li a{
@@ -85,7 +91,7 @@ marquee{
     border: .2rem solid;
     border-radius: .5rem;
     background-color: #292626;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
 }
 input[type=text]
@@ -102,8 +108,8 @@ button{
 }
 #but{
     width: 5rem;
-    height:2.8rem;
-    border:.4rem solid black;
+    height:3rem;
+    border:.2rem solid black;
     cursor: pointer;
     border-left: none;
     background-color: #e6f0e6;
@@ -118,10 +124,7 @@ button{
     background-color: #fff;
     
 }
-#but:hover{
-    background-color: #d54b4b;
 
-}
 /* NAVBAR DESIGN SECTION END THIS LINE */
 
 
@@ -134,7 +137,7 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
+    
 }
 
 .intro{
@@ -214,9 +217,9 @@ span{
 
 /* image side of design section  */
 .photo img{
-    width: 20rem;
+    width: 30rem;
     /* border: 1rem solid white; */
-    height: 20rem;
+    height: 30rem;
     border-radius: 46%;
     box-shadow: red;
     margin-top: 12rem;
@@ -243,7 +246,7 @@ span{
     display: flex;
     margin-top: 0rem;
     width: 100%;
-    height: 44rem;
+    height: 40rem;
     background-color:#1e272e;
 
 }
@@ -302,8 +305,8 @@ span{
     
 }
 .about button{
-    padding: .2rem;
-    border-radius: 1.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
     margin: 2rem;
     font-size: 2rem;
     color: rgb(24, 18, 18);
@@ -415,7 +418,7 @@ html{
 footer{
     background-color:#2d3436;
     width: 100%;
-    height: 50rem;
+    height: 72rem;
 }
 #head{
     font-size: 3rem;
@@ -556,7 +559,6 @@ footer p{
     html{
         font-size:47%;
     }
-     
         footer{
             flex-wrap: wrap;
             height: 75rem;
@@ -564,66 +566,65 @@ footer p{
         .front{
             flex-wrap: wrap;
         }
- 
       
         
     
 }
 @media(max-width:768px){
     html{
-        font-size: 43%;
+        font-size: 44%;
     }
         .navbar{
             height: 12rem;
             display: block;
+            /* background-color: rgb(106, 172, 106) */
             
            }
- 
-   
-    .navbar ul li{
-        margin-left:2rem;
-        margin-right:2rem;
-    }
+           .navbar ul li{
+            margin-left: 2rem;
+            margin-right: 2rem;
+           }
            .navbar ul li a{
             padding: 0.5rem;
-               magin-left:2rem;
+            
+
            }
         #logo{
-            margin-left:25rem;
-             margin-top:1rem;
+            margin-left: 45rem;
+            
            }
            .front{
             flex-wrap: wrap;
         }
-       footer{
-            flex-wrap: wrap;
+        footer{
             height: 75rem;
         }
-    .curve{
-        margin-top:60rem;
-    }
+        .curve{
+            margin-top:60rem ;
+           }
    
     
 }
 @media(max-width:591px){
-   html{
-       font-size:42%;
-   }
-        .navbar{
-            display: block;
-
-            
-           }
+    html{
+        font-size: 43%;
+    }
         .navbar ul li a{
             display: block;
             padding: .8rem;
             height: auto;
         }
-       
+       .curve{
+        margin-top:60rem ;
+       }
+
         footer{
             flex-wrap: wrap;
             height: 70rem;
 
+        }
+        .container2{
+            height: 50rem;
         }
         .about p{
             overflow: hidden;
@@ -631,24 +632,16 @@ footer p{
         .logo img{
             margin-right:0.5rem;
            }
-       .curve{
-        margin-top:60rem;
-    }
-      .container2{
-            height: 50rem;
-        }
         
-    
-}
+    }
+
 @media(max-width:498px){
     html{
-        font-size:43rem;
-    }
         .navbar{
             height: 15rem;
         }
        .navbar ul{
-        height: 12rem;
+        height: 8rem;
        
        }
        .front span {
@@ -656,7 +649,7 @@ footer p{
        }
         footer{
             flex-wrap: wrap;
-            height: 90rem;
+            height: 70rem;
 
         }
         .about{
@@ -684,17 +677,8 @@ footer p{
             margin-right: 4px;
             overflow: hidden;
            }
-    
+    }
 }
-
-
-
-
-
-
-
-
-
 
 
 
