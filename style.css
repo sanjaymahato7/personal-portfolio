@@ -638,6 +638,8 @@ footer p{
 
 @media(max-width:498px){
     html{
+        font-size:43%;
+    }
         .navbar{
             height: 15rem;
         }
@@ -678,7 +680,7 @@ footer p{
             margin-right: 40px;
             overflow: hidden;
            }
-    }
+    
 }
 
 
