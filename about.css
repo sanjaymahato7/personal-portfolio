@@ -602,6 +602,12 @@ footer p{
 /*             background-color: rgb(106, 172, 106) */
             
            }
+    marquee{
+        margin-left:12rem;
+    }
+    .navbar ul li{
+        flex-wrap:wrap;
+    }
         #logo{
             margin-left: 45rem;
             
