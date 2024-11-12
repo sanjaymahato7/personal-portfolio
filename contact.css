@@ -371,6 +371,7 @@ footer p{
 @media(max-width:998px){
     html{
         font-size:47%;
+    }
 
         .navbar{
             display: block;
@@ -390,37 +391,52 @@ footer p{
         }
       
         
-    }
+    
 }
 @media(max-width:768px){
     html{
         font-size: 43%;
-  
+    }
         .navbar{
-            height: 10rem;
+            height: 13rem;
             display: block;
-            background-color: rgb(106, 172, 106)
+          
             
            }
+        .navbar ul li{
+            line-height:4.4rem;
+        }
+        marquee{
+            margin-top:26rem;
+        }
         .navbar ul{
             flex-wrap: wrap;
+            padding:0.3rem;
             
            }
         #logo{
-            margin-left: 45rem;
+            margin-left: 25rem;
+            margin-top:1rem;
             
            }
            .front{
             flex-wrap: wrap;
         }
+        footer{
+            height:100rem;
+        }
+            
    
-    }
+    
 }
 @media(max-width:522px){
     html{
+        font-size:43%;
+    }
+    
         footer{
             flex-wrap: wrap;
             height: 100rem;
         }
-    }
+    
 }
