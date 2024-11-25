@@ -657,46 +657,14 @@ footer p{
         
     }
 
-@media(max-width:498px){
+@media(max-width:522px){
     html{
         font-size:43%;
     }
-        .navbar{
-            height: 13rem;
-        }
-       .front span {
-        font-size: 2rem;
-       }
         footer{
             flex-wrap: wrap;
-            height: 100rem;
-
+            height:120rem;
         }
-        .about{
-        height: 70rem;
-        
-        }
-        .navbar ul{
-            margin:0px;
-            flex-wrap: wrap;
-            padding: 0px;
-        }
-        .about p{
-            overflow: hidden;
-        }
-        .logo img{
-            margin-right:0rem;
-            
-           }
-           .curve{
-            padding-top: 0rem;
-           }
-           .container2{
-            margin-top: 2rem;
-            height: 69rem;
-            margin-right: 40px;
-            overflow: hidden;
-           }
     
 }
 
