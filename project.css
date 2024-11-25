@@ -512,14 +512,15 @@ footer p{
 @media(max-width:768px){
     html{
         font-size: 43%;
+    }
         .heading{
             margin: 1rem 1rem 0rem 1rem;
         }
   
         .navbar{
-            height: 10rem;
+            height: 15rem;
             display: block;
-            background-color: rgb(106, 172, 106)
+            
             
            }
         #logo{
@@ -529,11 +530,16 @@ footer p{
            .front{
             flex-wrap: wrap;
         }
-   
+    footer{
+        height:100rem;
     }
+   
+    
 }
 @media(max-width:560px){
     html{
+        font-size:43%;
+    }
         .contant{
             justify-content: start;
         }
@@ -546,7 +552,7 @@ footer p{
         footer{
             
             flex-wrap: wrap;
-            height: 100rem;
+            height: 105rem;
         }
-    }
+    
 }
