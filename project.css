@@ -2,16 +2,14 @@
     padding: 0rem;
     margin: 0rem;
 }
-/* body{
-    background-image: url(/GIF\ FOLDER/gif1.gif);
-} */
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
 
     width: 100%;
     height: 4.5rem;
-    background-color: rgb(129, 239, 129);
+    background-color: #a4b0be;
     justify-content: space-between;
 }
 marquee{
@@ -137,10 +135,6 @@ button{
 .content{
     display: flex;
     justify-content: space-evenly;
-  
-   
-
-
 }
 .content:before{
     content: " "; /* firstly written this line*/
@@ -517,16 +511,31 @@ footer p{
             margin: 1rem 1rem 0rem 1rem;
         }
   
-        .navbar{
+          .navbar{
             height: 15rem;
-            display: block;
-            
-            
+            display: block;   
+           }
+    
+    .navbar ul{
+        flew-wrap:wrap;
+        padding:0.3rem;
+    }
+     .navbar ul li{
+        line-height:4.4rem;
+    }
+    
+  .navbar ul li a{
+            padding: 0.5rem;
+           }
            }
         #logo{
-            margin-left: 45rem;
-            
+            margin-left: 25rem;
+            margin-top:1rem;
            }
+    
+    .log img{
+        margin-left:12px;
+    }
            .front{
             flex-wrap: wrap;
         }
@@ -534,6 +543,16 @@ footer p{
         height:100rem;
     }
    
+    
+}
+@media(max-width:522px){
+    html{
+        font-size:43%;
+    }
+        footer{
+            flex-wrap: wrap;
+            height:120rem;
+        }
     
 }
 @media(max-width:560px){
