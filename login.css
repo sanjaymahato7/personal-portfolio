@@ -52,9 +52,6 @@ marquee{
 
 /* JS CODING OF COMPLETER LINKING  */
 
-#logo{
-    margin-top: 0.7rem;
-}
 
 #logo img{
     width: 3rem;
@@ -444,8 +441,8 @@ footer p{
         line-height:4.4rem;
     }
            marquee{
-            margin-top:12rem;
-               font-size:2.2rem;
+            margin-top:7rem;
+               font-size:2.6rem;
            }
           .navbar ul{
         flex-wrap:wrap;
@@ -470,7 +467,7 @@ footer p{
           }
           footer{
            
-            height: 110rem;
+            height: 112rem;
           
         }
    
@@ -486,7 +483,7 @@ footer p{
     }
         footer{
             flex-wrap: wrap;
-            height: 100rem;
+            height: 110rem;
         }
         .navbar ul{
             flex-wrap: wrap;
