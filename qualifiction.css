@@ -694,8 +694,11 @@ footer p{
     }
         #logo{
             margin-left: 25rem;
-            margin-top:1rem;
+           
        }
+    #logo img{
+        margin-top:1rem;
+    }
 
     
            .qua h1 {
@@ -705,8 +708,8 @@ footer p{
 }
     .containerQ {
     width: 45rem;
-    height: 40rem;
-    margin-left:1rem;
+    height: 38rem;
+    margin:auto;
     }
     .table{
         font-size:1rem;
@@ -725,6 +728,24 @@ footer p{
    .front{
             flex-wrap: wrap;
         }
+.subtitle h1 {
+    text-align:center;
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+}
+    .container {
+    margin-left: 4rem;
+        margin-bottom:2rem;
+}
+    .container1 h1{
+        font-size:2.5rem;
+        margin-bottom:2rem;
+    }
+    .radialbars{
+        margin-top:2rem;
+    }
+    
    .footer{
        height:110rem;
    }
