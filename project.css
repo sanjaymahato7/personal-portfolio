@@ -249,32 +249,32 @@ button{
 
 .cardd1{
     
-    background-image: url(../GIF\ FOLDER/gif2.gif);
+    background-image: url(./gif2.gif);
     background-image: fixed;
     background-size: cover;
     
 }
 .cardd2{
-    background-image: url(../IMAGE\ FOLDER/image2.webp);
+    background-image: url(./image2.webp);
     background-size: cover;
 }
 .cardd3{
-    background-image: url(../GIF\ FOLDER/gif3.gif);
+    background-image: url(./gif3.gif);
     background-image: fixed;
     background-size: cover;
 }
 .cardd4{
-    background-image: url(../GIF\ FOLDER/gif4.gif);
+    background-image: url(./gif4.gif);
     background-image: fixed;
     background-image: cover;
 }
 .cardd5{
-    background-image: url(../GIF\ FOLDER/gif5.gif);
+    background-image: url(./gif5.gif);
     background-image: fixed;
     background-image: cover;
 }
 .cardd6{
-    background-image: url(../GIF\ FOLDER/gif8.gif);
+    background-image: url(./gif8.gif);
     background-image: fixed;
     background-image: cover;
 }
@@ -574,11 +574,11 @@ footer p{
         height:20rem;
     }
     .imagecard h1{
-        margin-top:22rem;
+        margin-top:12rem;
     }
     
     footer{
-        height:115rem;
+        height:100rem;
     }
    
     
