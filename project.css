@@ -530,8 +530,11 @@ footer p{
             }
         #logo{
             margin-left: 25rem;
-            margin-top:1rem;
+           
            }
+    #logo img{
+        margin-top:1rem;
+    }
     
     .log img{
         margin-left:12px;
