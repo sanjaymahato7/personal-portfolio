@@ -549,6 +549,10 @@ footer p{
         width:60rem;
         height:60rem;
     }
+    .cardd1{
+        height:23rem;
+    }
+    
     
            .front{
             flex-wrap: wrap;
@@ -571,7 +575,7 @@ footer p{
         font-size:1.6rem;
     }
     .imagecard h1{
-        margin-top:1rem;
+        margin-top:5rem;
     }
     
     footer{
