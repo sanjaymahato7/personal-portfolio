@@ -21,7 +21,7 @@ marquee{
     text-transform: capitalize;
     color: black;
     text-shadow: .1rem -0.2rem yellowgreen;
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 
 .container{
@@ -536,6 +536,16 @@ footer p{
     .log img{
         margin-left:12px;
     }
+    .image p{
+        font-size:1.6rem;
+    }
+    .container{
+        height:50rem;
+    }
+    .card1{
+        width:30rem;
+        height:30rem;
+    }
     
            .front{
             flex-wrap: wrap;
@@ -543,8 +553,17 @@ footer p{
 .image img{
     width:20rem;
     heght:20rem;
-    margin-left:1rem;
+    border-radius:10rem;
+    margin-left:0.5rem;
 }
+    .heading h1{
+        font-size:1.8rem;
+        
+    }
+    .heading h2{font-size:1.6rem;}
+    .heading h3{
+        font-size:1.4rem;
+    }
     
     footer{
         height:100rem;
