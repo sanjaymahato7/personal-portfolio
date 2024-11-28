@@ -561,13 +561,17 @@ footer p{
         font-size:2.2rem;
         
     }
-    .heading h2{font-size:1.8rem;}
+    .heading h2{
+        font-size:1.8rem;
+    }
     .heading h3{
         font-size:1.6rem;
     }
+    .imagecard{
+        height:25rem;
     
     footer{
-        height:105rem;
+        height:115rem;
     }
    
     
@@ -596,9 +600,8 @@ footer p{
             margin: 1rem 1rem 0rem 1rem;
         }
         footer{
-            
             flex-wrap: wrap;
-            height: 105rem;
+            height: 110rem;
         }
     
 }
