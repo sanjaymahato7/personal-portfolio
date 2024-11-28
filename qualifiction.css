@@ -146,8 +146,8 @@ html{
 
 
 .containerQ{
-    width: 65rem;
-    height: 50rem;
+    width: 64rem;
+    height: 44rem;
     border: .7rem solid rgb(7, 190, 53);
     margin: auto;  
     box-shadow: .1rem 1rem 2rem rgb(88, 7, 7);
@@ -706,29 +706,23 @@ footer p{
     .containerQ {
     width: 45rem;
     height: 40rem;
-        margin:auto;
+    margin-left:1rem;
     }
     .table{
-  border-collapse: separate; /* Respects spacing between cells */
-  border-spacing: 2px; /* Equivalent to cellspacing */
-  width: 40rem; /* Set the width */
-  height: 50rem; /* Set the height */
-  text-align: center; /* Center the text */
-  border: 1px solid black; /* Table border */
-'
-}
-
-.table th,
-.table td {
-     font-size:1.4rem;
-    padding: 0.5rem 1rem;
-
-}
-
-
-
-        
-           .front{
+        font-size:1rem;
+    }
+    .table th{
+        font-size:2.4rem;
+    }
+    .table td{
+        font-size:2rem;
+    }
+    .table th,
+    .table td{
+        padding:0.5rem 1rem;
+    }
+    
+   .front{
             flex-wrap: wrap;
         }
    .footer{
