@@ -529,7 +529,7 @@ footer p{
             padding: 0.5rem;
             }
         #logo{
-            margin-left: 225rem;
+            margin-left: 25rem;
             margin-top:1rem;
            }
     
@@ -540,11 +540,11 @@ footer p{
         font-size:1.6rem;
     }
     .container{
-        height:50rem;
+        height:48rem;
     }
     .card1{
-        width:30rem;
-        height:30rem;
+        width:60rem;
+        height:60rem;
     }
     
            .front{
@@ -553,20 +553,21 @@ footer p{
 .image img{
     width:20rem;
     heght:20rem;
-    border-radius:10rem;
+    border-radius:12rem;
     margin-left:0.5rem;
+    margin-right:1rem;
 }
     .heading h1{
-        font-size:1.8rem;
+        font-size:2.2rem;
         
     }
-    .heading h2{font-size:1.6rem;}
+    .heading h2{font-size:1.8rem;}
     .heading h3{
-        font-size:1.4rem;
+        font-size:1.6rem;
     }
     
     footer{
-        height:100rem;
+        height:105rem;
     }
    
     
