@@ -509,6 +509,7 @@ footer p{
     }
         .heading{
             margin: 1rem 1rem 0rem 1rem;
+            font-size:1.8rem;
         }
   
           .navbar{
@@ -526,19 +527,25 @@ footer p{
     
   .navbar ul li a{
             padding: 0.5rem;
-           }
-           }
+            }
         #logo{
-            margin-left: 25rem;
+            margin-left: 225rem;
             margin-top:1rem;
            }
     
     .log img{
         margin-left:12px;
     }
+    
            .front{
             flex-wrap: wrap;
         }
+.image img{
+    width:20rem;
+    heght:20rem;
+    margin-left:1rem;
+}
+    
     footer{
         height:100rem;
     }
