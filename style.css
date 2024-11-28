@@ -36,7 +36,7 @@ marquee{
 /* JS CODING OF COMPLETER LINKING  */
 
 #logo{
-    margin-top: 0.4rem;
+   
     margin-left: 4rem;
 }
 
@@ -572,16 +572,13 @@ footer p{
            }
     
     .navbar ul{
-        flew-wrap:wrap;
+        flex-wrap:wrap;
         padding:0.3rem;
     }
      .navbar ul li{
         line-height:4.4rem;
     }
     
-  .navbar ul li a{
-            padding: 0.5rem;
-           }
     
 .profile{
     display: flex;
