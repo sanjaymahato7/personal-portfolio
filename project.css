@@ -572,6 +572,10 @@ footer p{
     }
     .imagecard{
         height:25rem;
+    }
+    .imagecard h1{
+        margin-top:23rem;
+    }
     
     footer{
         height:115rem;
