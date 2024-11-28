@@ -566,17 +566,17 @@ footer p{
     html{
         font-size: 43%;
     }
-        .navbar{
-            height: 15rem;
-            display: block;   
+         .navbar{
+            margin-top:0px;
+            height:15rem;
+            display: block;
            }
-    
-    .navbar ul{
+    .navbar ul li{
+        line-height:4.4rem;
+    }
+.navbar ul{
         flex-wrap:wrap;
         padding:0.3rem;
-    }
-     .navbar ul li{
-        line-height:4.4rem;
     }
     
     
@@ -599,8 +599,11 @@ footer p{
 
         #logo{
             margin-left: 25rem;
-            margin-top:1rem;
            }
+    #logo img{
+        margin-top:1rem;
+    }
+        
     
     .log img{
         margin-left:12px;
