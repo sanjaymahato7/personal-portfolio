@@ -28,7 +28,7 @@
 /* JS CODING OF COMPLETER LINKING  */
 
 #logo{
-    margin-top: 0.7rem;
+    margin-top: 0rem;
 }
 
 #logo img{
@@ -677,7 +677,7 @@ footer p{
         }
      .navbar{
             margin-top:0px;
-            height:13rem;
+            height:15rem;
             display: block;
            }
         
@@ -728,10 +728,7 @@ footer p{
    .front{
             flex-wrap: wrap;
         }
-.subtitle h1 {
-    text-align:center;
-    font-weight: bolder;
-    color: black;
+.container h1,sapn {
     font-size: 2rem;
 }
     .container {
