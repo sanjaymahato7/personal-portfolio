@@ -567,8 +567,7 @@ footer p{
         font-size: 43%;
     }
          .navbar{
-            margin-top:0px;
-            height:15rem;
+            height:16rem;
             display: block;
            }
     .navbar ul li{
@@ -627,7 +626,11 @@ footer p{
    }
     marquee{
         margin-top:14rem;
-        margin-left:2rem;
+        margin-left:4rem;
+    }
+     .front span{
+        font-size:2.4rem;
+        margin:0rem 2rem 0rem 0rem;
     }
      .log img{
         magin-left:0.8rem;
