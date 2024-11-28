@@ -616,10 +616,10 @@ footer p{
             flex-wrap: wrap;
         }
         footer{
-            height: 103rem;
+            height: 100rem;
         }
     .container2{
-        height:75rem;
+        height:85rem;
         font-size:2rem;
     }
      .about{
@@ -627,6 +627,11 @@ footer p{
    }
     marquee{
         margin-top:14rem;
+        margin-left:2rem;
+    }
+     .log img{
+        magin-left:0.8rem;
+        margin-right:0.5rem;
     }
    
     
