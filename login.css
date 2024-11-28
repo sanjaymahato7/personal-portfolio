@@ -11,7 +11,7 @@
 
     width: 100%;
     height: 4.5rem;
-    background-color: rgb(129, 239, 129);
+   background-color: #a4b0be;
     justify-content: space-between;
 }
 marquee{
@@ -83,7 +83,6 @@ marquee{
     color: whitesmoke;
     padding: 2rem;
     color: rgb(18, 17, 16);
-    padding: 2rem;
     text-decoration: none;
     font-weight: bolder;
 
@@ -161,20 +160,16 @@ form{
 }
 .containerl{
 
-    display: block;
-    justify-content: center;
-    align-items: center;
+   
+   margin: auto;
     width: 30rem;
     height: 35rem;
-    margin-top: 50%;
-    margin-left: 50%;
     border: .2rem solid red;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: -.1rem -.1rem 1.2rem 1.4rem green;
-    margin-top: 10rem;
-    margin-left: 80rem;
-    margin-bottom: 10rem;
+    margin-top:20rem;
+    margin-bottom:10rem;
 
 }
 .containerl::after{
@@ -420,6 +415,7 @@ footer p{
 @media(max-width:998px){
     html{
         font-size:47%;
+    }
      
         footer{
             flex-wrap: wrap;
@@ -430,7 +426,7 @@ footer p{
         }
       
         
-    }
+    
 }
 
 
@@ -438,20 +434,33 @@ footer p{
 @media(max-width:768px){
     html{
         font-size: 43%;
-        .navbar{
-            height: 10rem;
+    }
+         .navbar{
+            margin-top:0px;
+            height:13rem;
             display: block;
-            background-color: rgb(106, 172, 106)
-            
            }
+    .navbar ul li{
+        line-height:4.4rem;
+    }
            marquee{
-            margin-top: 60px;
+            margin-top:12rem;
+               font-size:2.2rem;
            }
+          .navbar ul{
+        flex-wrap:wrap;
+        padding:0.3rem;
+    }
         #logo{
-            margin-left: 45rem;
+            margin-left: 25rem;
+            margin-top:1rem;
             
            }
-           .front{
+   .front span{
+        font-size:2.4rem;
+        margin:0rem 2rem 0rem 0rem;
+    }
+         .front{
             flex-wrap: wrap;
         }
         .containerl{
@@ -460,20 +469,21 @@ footer p{
             margin-bottom: 12rem;
           }
           footer{
-            flex-wrap: wrap;
-            height: 100rem;
-            justify-content: center;
-            align-items: center;
+           
+            height: 110rem;
+          
         }
    
-    }
+    
 }
 
 
 
 
 @media(max-width:585px){
-    html{
+    html{ 
+        font-size:43%;
+    }
         footer{
             flex-wrap: wrap;
             height: 100rem;
@@ -487,5 +497,5 @@ footer p{
             margin-top: 8rem;
             margin-bottom: 5rem;
           }
-    }
+    
 }
