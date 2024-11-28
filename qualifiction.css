@@ -676,24 +676,23 @@ footer p{
             margin: 1rem 1rem 0rem 1rem;
         }
         
-        .navbar{
-            height: 12rem;
-            display: block;
-         
-            
-           }
-        .navbar ul li a{
-            flex-wrap:wrap;
-            line-space:2rem;
-        }
-            
-            
-            
-        
+       .navbar ul li{
+        line-height:4.4rem;
+    }
+    
+    marquee{
+        margin-left:12rem;
+    }
+    .navbar ul{
+        flex-wrap:wrap;
+        padding:0.3rem;
+    }
         #logo{
-            margin-left: 45px;
-            
-           }
+            margin-left: 25rem;
+            margin-top:1rem;
+       }
+
+    
            .qua h1 {
     margin-top: 4rem;
     font-size: 2rem;
@@ -705,10 +704,23 @@ footer p{
         margin:auto;
     }
     .table{
-        width:50rem;
-        height:60rem
-        font-size:1.7rem;
-    }
+  border-collapse: separate; /* Respects spacing between cells */
+  border-spacing: 2px; /* Equivalent to cellspacing */
+  width: 40rem; /* Set the width */
+  height: 50rem; /* Set the height */
+  text-align: center; /* Center the text */
+  border: 1px solid black; /* Table border */
+}
+
+.table th,
+.table td {
+  border: 0.1rem solid black; /* Cell border */
+  padding: 1rem; /* Equivalent to cellpadding */
+}
+
+
+
+        
            .front{
             flex-wrap: wrap;
         }
