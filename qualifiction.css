@@ -675,13 +675,18 @@ footer p{
         .heading{
             margin: 1rem 1rem 0rem 1rem;
         }
+     .navbar{
+            margin-top:0px;
+            height:13rem;
+            display: block;
+           }
         
        .navbar ul li{
         line-height:4.4rem;
     }
     
     marquee{
-        margin-left:12rem;
+        margin-left:18rem;
     }
     .navbar ul{
         flex-wrap:wrap;
@@ -710,12 +715,14 @@ footer p{
   height: 50rem; /* Set the height */
   text-align: center; /* Center the text */
   border: 1px solid black; /* Table border */
+'
 }
 
 .table th,
 .table td {
-  border: 0.1rem solid black; /* Cell border */
-  padding: 1rem; /* Equivalent to cellpadding */
+     font-size:1.4rem;
+    padding: 0.5rem 1rem;
+
 }
 
 
