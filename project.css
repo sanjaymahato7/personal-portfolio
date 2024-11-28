@@ -259,12 +259,12 @@ button{
     background-size: cover;
 }
 .cardd3{
-    background-image: url(./gif3.gif);
+    background-image: url(./gif11.gif);
     background-image: fixed;
     background-size: cover;
 }
 .cardd4{
-    background-image: url(./gif4.gif);
+    background-image: url(./gif9.gif);
     background-image: fixed;
     background-image: cover;
 }
@@ -547,7 +547,7 @@ footer p{
     }
     .card1{
         width:60rem;
-        height:60rem;
+        height:59rem;
     }
  
     
