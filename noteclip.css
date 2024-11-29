@@ -11,7 +11,8 @@
 
     width: 100%;
     height: 4.5rem;
-    background-color: rgb(129, 239, 129);
+   
+    background-color:#a4b0be;
     justify-content: space-between;
 }
 marquee{
@@ -120,14 +121,15 @@ input[type=text]
 button{
     border-radius: .4rem;
 }
+
 #but{
     width: 5rem;
     height:2.7rem;
-    border:.2rem solid rgb(206, 177, 177);
+    border:.2rem solid black;
     cursor: pointer;
     border-left: none;
     background-color: #e6f0e6;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
@@ -138,10 +140,7 @@ button{
     background-color: #fff;
     
 }
-#but:hover{
-    background-color: #d54b4b;
 
-}
 html{
     font-size: 62.5%;
 }
@@ -193,7 +192,6 @@ section h1{
 .content h1{
     position: absolute;
     color: white;
-    /* transform: translate(-50%,-50%); */
     margin-left: 2rem;
     font-size: 8rem;
 }
@@ -361,10 +359,8 @@ footer p{
 @media(max-width:1339px){
     html{
         font-size:47%;
-        background-color: rgb(225, 104, 5);
-      
-        
     }
+   
 }
 @media(max-width:1096px){
     html{
@@ -378,6 +374,7 @@ footer p{
 @media(max-width:998px){
     html{
         font-size:47%;
+    }
         .container{
             justify-content:center;
             align-items: center;
@@ -392,40 +389,61 @@ footer p{
         }
       
         
-    }
+    
 }
 @media(max-width:768px){
     html{
         font-size: 43%;
+    }
   
-        .navbar{
-            height: 10rem;
+             .navbar{
+            margin-top:0px;
+            height:13rem;
             display: block;
-            background-color: rgb(106, 172, 106)
-            
            }
+    .navbar ul li{
+        line-height:4.4rem;
+    }
+      .navbar ul{
+        flex-wrap:wrap;
+        padding:0.3rem;
+    }
+    
         #logo{
             margin-left: 45rem;
             
            }
+    
+    #logo img{ 
+    margin-top:1rem;
+    }
            .container{
             justify-content:center;
             align-items: center;
             transform: translate(3rem,4rem);
         }
+         .front span{
+        font-size:2.4rem;
+        margin:0rem 2rem 0rem 0rem;
+    }
+    
            .front{
             flex-wrap: wrap;
         }
-   
+    .footer{
+        height:110rem;
     }
+    
 }
 @media(max-width:522px){
     html{
+        font-size:43%;
+    }
         footer{
             flex-wrap: wrap;
             height: 100rem;
         }
-    }
+    
 }
 
 
