@@ -398,15 +398,15 @@ footer p{
   
              .navbar{
             margin-top:0px;
-            height:13rem;
+            height:15rem;
             display: block;
            }
     .navbar ul li{
-        line-height:4.6rem;
+        line-height:4.4rem;
     }
       .navbar ul{
         flex-wrap:wrap;
-        padding:0.6rem;
+        padding:0.4rem;
     }
     
         #logo{
