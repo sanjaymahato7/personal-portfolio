@@ -2,23 +2,18 @@
     padding: 0rem;
     margin: 0rem;
 }
-/* body{
-    background-image: url(/GIF\ FOLDER/gif1.gif);
-} */
 .navbar{
     display: flex;
     flex-wrap: wrap;
-
     width: 100%;
     height: 4.5rem;
-  background-color: #a4b0be;
+    background-color: #a4b0be;
     justify-content: space-between;
 }
 
 .container{
     width: 100%;
-    height: 54.2rem;
-   
+    height: 54.2rem;   
 }
 
 .curve{
@@ -42,8 +37,6 @@
 #logo img:hover{
     background-color: rgb(233, 17, 57);
 }
-
-
 
 .navbar ul{
     display: flex;
@@ -636,11 +629,11 @@ footer p{
 
 @media(max-width:1339px){
     html{
-        font-size:47%;
-       
+        font-size:47%;    
     }
-     .containerQ {
-    width: 38rem;
+    
+    .containerQ {
+    width: 28rem;
     height: 32rem;
     margin:auto;
     }
@@ -652,7 +645,7 @@ footer p{
         
     }
      .containerQ {
-    width: 36rem;
+    width: 32rem;
     height: 32rem;
     margin:auto;
     }
@@ -674,7 +667,7 @@ footer p{
             flex-wrap: wrap;
         }
      .containerQ {
-    width: 38rem;
+    width: 32rem;
     height: 32rem;
     margin:auto;
     }
