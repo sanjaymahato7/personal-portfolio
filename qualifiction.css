@@ -639,12 +639,22 @@ footer p{
         font-size:47%;
        
     }
+     .containerQ {
+    width: 42rem;
+    height: 36rem;
+    margin:auto;
+    }
 }
 @media(max-width:1096px){
     html{
         font-size:47%;
         
         
+    }
+     .containerQ {
+    width: 42rem;
+    height: 36rem;
+    margin:auto;
     }
 }
 
@@ -663,6 +673,11 @@ footer p{
         .front{
             flex-wrap: wrap;
         }
+     .containerQ {
+    width: 42rem;
+    height: 36rem;
+    margin:auto;
+    }
       
         
     
