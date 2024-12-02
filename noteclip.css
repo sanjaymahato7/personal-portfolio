@@ -350,10 +350,11 @@ footer p{
 @media(max-width:1096px){
     html{
         font-size:47%;
+    }
         background-color: rgb(5, 5, 5);
       
         
-    }
+    
 }
 
 @media(max-width:998px){
