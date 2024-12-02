@@ -74,8 +74,8 @@ border-radius: .4rem;
 
 
 #but{
-width: 50rem;
-height:27rem;
+width: 5rem;
+height:2.7rem;
 border:.2rem solid rgb(206, 177, 177);
 cursor: pointer;
 border-left: none;
@@ -96,10 +96,6 @@ background-color: #fff;
 background-color: #d54b4b;
 
 }
-#logo{
-margin-top: 6.5rem;
-}
-
 #logo img{
 width: 30rem;
 height: 30rem;
