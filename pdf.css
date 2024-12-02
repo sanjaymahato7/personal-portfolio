@@ -434,7 +434,7 @@ footer p{
 @media(max-width:1096px){
     html{
         font-size:47%;
-        background-color: rgb(5, 5, 5);
+       
       
         
     }
@@ -443,7 +443,7 @@ footer p{
 @media(max-width:998px){
     html{
         font-size:47%;
-
+    }
         .navbar{
             display: block;
             
@@ -462,38 +462,84 @@ footer p{
         }
       
         
-    }
+    
 }
 @media(max-width:768px){
-    html{
+ html{
         font-size: 43%;
-  
-        .navbar{
-            height: 10rem;
+    }
+         .navbar{
+            height:16rem;
             display: block;
-            background-color: rgb(106, 172, 106)
-            
            }
-        .navbar ul{
-            flex-wrap: wrap;
-            
-           }
+    .navbar ul li{
+        line-height:4.4rem;
+    }
+.navbar ul{
+        flex-wrap:wrap;
+        padding:0.6rem;
+    }
+    
+    
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    
+}
+    
+    .photo img{
+        width:16rem;
+        height:16rem;
+    }
+    .intro{
+        font-size:2.3rem;
+    }
+    
+
         #logo{
-            margin-left: 45rem;
-            
+            margin-left: 25rem;
            }
+    #logo img{
+        margin-top:1rem;
+    }
+        
+    
+    .log img{
+        margin-left:12px;
+    }
+      .curve{
+        height:14rem;
+           margin-top:46rem;
+       }
            .front{
             flex-wrap: wrap;
         }
-   
+        footer{
+            height: 100rem;
+        }
+
+    
+     .front span{
+        font-size:2.4rem;
+        margin:0rem 2rem 0rem 0rem;
     }
+     .log img{
+        magin-left:0.8rem;
+        margin-right:0.5rem;
+    }
+   
+    
 }
 @media(max-width:522px){
     html{
+        font-size:43%;
+    }
         footer{
             flex-wrap: wrap;
             height: 100rem;
         }
-    }
+    
 }
 
