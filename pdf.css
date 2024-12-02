@@ -16,8 +16,8 @@ justify-content: space-between;
 
 
 #logo img{
-width: 10rem;
-height: 10rem;
+width: 5rem;
+height: 5rem;
 border: 2rem dotted rgb(245, 200, 200);
 border-radius: 20rem;
 cursor: pointer;
@@ -37,12 +37,12 @@ list-style: none;
 margin-top: 1rem;
 font-size: 2rem;
 text-transform: capitalize;
-text-shadow: -1rem -1rem yellowgreen;
+text-shadow: -.1rem -.1rem yellowgreen;
 
 }
 .navbar ul li a{
 color: whitesmoke;
-padding: 2rem;
+padding: .2rem;
 text-decoration: none;
 font-weight: bolder;
 
@@ -52,7 +52,7 @@ color: red;   /* transition: 2s; */
 }
 /* input text design section */
 .navbar input{
-width: 14.4rem;
+width: 3rem;
 border: .2rem solid;
 border-radius: 5rem;
 background-color: #292626;
